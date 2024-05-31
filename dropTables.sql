@@ -1,0 +1,15 @@
+DROP TABLE playLending;
+DROP TABLE bookLending;
+DROP TABLE book_author;
+DROP TABLE playCopy;
+DROP TABLE bookCopy;
+DROP TABLE play;
+DROP TABLE book;
+DROP TABLE playPublisher;
+DROP TABLE playCategory;
+DROP TABLE bookPublisher;
+DROP TABLE bookCategory;
+DROP TABLE librarian;
+DROP TABLE client;
+DROP TABLE person;
+commit;
