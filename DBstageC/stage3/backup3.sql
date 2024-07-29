@@ -7315,776 +7315,776 @@ values ('662443577', to_date('17-03-2015', 'dd-mm-yyyy'), 'Armand377', 'TitTOyKV
 commit;
 prompt 487 records loaded
 prompt Loading BOOKLENDING...
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (1, to_date('17-03-2022', 'dd-mm-yyyy'), to_date('06-12-2022', 'dd-mm-yyyy'), null, '989570315', '596690563', 650);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (2, to_date('11-09-2022', 'dd-mm-yyyy'), to_date('25-09-2022', 'dd-mm-yyyy'), null, '874481938', '376926882', 403);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (3, to_date('27-03-2020', 'dd-mm-yyyy'), to_date('10-04-2020', 'dd-mm-yyyy'), null, '915923130', '526829293', 207);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (4, to_date('22-06-2011', 'dd-mm-yyyy'), to_date('18-03-2014', 'dd-mm-yyyy'), null, '913760353', '631487255', 304);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (5, to_date('25-08-2014', 'dd-mm-yyyy'), to_date('29-12-2022', 'dd-mm-yyyy'), null, '353506388', '791299463', 653);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (6, to_date('02-02-2009', 'dd-mm-yyyy'), to_date('12-11-2013', 'dd-mm-yyyy'), null, '066613546', '081383228', 642);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (7, to_date('04-01-2008', 'dd-mm-yyyy'), to_date('25-04-2013', 'dd-mm-yyyy'), null, '725276037', '214713146', 5);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (8, to_date('17-01-2016', 'dd-mm-yyyy'), to_date('31-01-2016', 'dd-mm-yyyy'), null, '793092711', '519792429', 298);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (9, to_date('31-07-2010', 'dd-mm-yyyy'), to_date('19-09-2014', 'dd-mm-yyyy'), null, '645106048', '498766701', 461);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (10, to_date('10-04-2015', 'dd-mm-yyyy'), to_date('24-04-2015', 'dd-mm-yyyy'), null, '413075709', '945150294', 698);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (11, to_date('20-09-2009', 'dd-mm-yyyy'), to_date('30-04-2011', 'dd-mm-yyyy'), null, '275681892', '526540050', 663);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (12, to_date('31-05-2003', 'dd-mm-yyyy'), to_date('30-04-2011', 'dd-mm-yyyy'), null, '688973370', '001852633', 33);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (13, to_date('15-02-2016', 'dd-mm-yyyy'), to_date('12-06-2018', 'dd-mm-yyyy'), null, '563934878', '524896676', 333);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (14, to_date('21-04-2017', 'dd-mm-yyyy'), to_date('05-05-2017', 'dd-mm-yyyy'), null, '235099187', '461518573', 22);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (15, to_date('14-04-2021', 'dd-mm-yyyy'), to_date('20-08-2023', 'dd-mm-yyyy'), null, '992475501', '187515796', 400);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (16, to_date('28-04-2012', 'dd-mm-yyyy'), to_date('14-05-2015', 'dd-mm-yyyy'), null, '938101191', '086072867', 868);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (17, to_date('20-11-2012', 'dd-mm-yyyy'), to_date('10-04-2022', 'dd-mm-yyyy'), null, '053078260', '017605424', 369);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (18, to_date('12-02-2008', 'dd-mm-yyyy'), to_date('18-06-2016', 'dd-mm-yyyy'), null, '800071003', '917208879', 1);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (19, to_date('26-12-2022', 'dd-mm-yyyy'), to_date('09-01-2023', 'dd-mm-yyyy'), null, '311690756', '170713739', 288);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (20, to_date('27-03-2017', 'dd-mm-yyyy'), to_date('10-04-2017', 'dd-mm-yyyy'), null, '878867388', '667461962', 475);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (21, to_date('02-06-2006', 'dd-mm-yyyy'), to_date('14-03-2017', 'dd-mm-yyyy'), null, '377017130', '263852543', 660);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (22, to_date('26-06-2020', 'dd-mm-yyyy'), to_date('10-07-2020', 'dd-mm-yyyy'), null, '081383228', '853341811', 415);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (23, to_date('05-03-2000', 'dd-mm-yyyy'), to_date('26-01-2022', 'dd-mm-yyyy'), null, '989570315', '856216050', 422);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (24, to_date('11-06-2018', 'dd-mm-yyyy'), to_date('11-12-2022', 'dd-mm-yyyy'), null, '878867388', '998214636', 801);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (25, to_date('25-09-2010', 'dd-mm-yyyy'), to_date('14-11-2018', 'dd-mm-yyyy'), null, '379348654', '096353906', 284);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (26, to_date('09-08-2021', 'dd-mm-yyyy'), to_date('24-03-2024', 'dd-mm-yyyy'), null, '562094648', '703815502', 202);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (27, to_date('28-06-2023', 'dd-mm-yyyy'), to_date('12-07-2023', 'dd-mm-yyyy'), null, '874752399', '319029281', 292);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (28, to_date('03-05-2016', 'dd-mm-yyyy'), to_date('06-12-2023', 'dd-mm-yyyy'), null, '261535229', '012259052', 976);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (29, to_date('16-08-2013', 'dd-mm-yyyy'), to_date('18-01-2022', 'dd-mm-yyyy'), null, '915372180', '582783692', 816);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (30, to_date('02-06-2019', 'dd-mm-yyyy'), to_date('16-06-2019', 'dd-mm-yyyy'), null, '035510904', '549134893', 240);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (31, to_date('18-05-2021', 'dd-mm-yyyy'), to_date('01-06-2021', 'dd-mm-yyyy'), null, '379348654', '315680603', 745);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (32, to_date('04-08-2013', 'dd-mm-yyyy'), to_date('20-09-2020', 'dd-mm-yyyy'), null, '417953406', '819819701', 815);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (33, to_date('02-01-2020', 'dd-mm-yyyy'), to_date('17-01-2023', 'dd-mm-yyyy'), null, '826540393', '281102853', 869);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (34, to_date('31-07-2014', 'dd-mm-yyyy'), to_date('14-08-2014', 'dd-mm-yyyy'), null, '553241085', '928264310', 446);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (35, to_date('18-03-2014', 'dd-mm-yyyy'), to_date('01-05-2018', 'dd-mm-yyyy'), null, '264847178', '081383228', 479);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (36, to_date('10-08-2001', 'dd-mm-yyyy'), to_date('26-02-2024', 'dd-mm-yyyy'), null, '155490931', '831042091', 239);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (37, to_date('28-07-2010', 'dd-mm-yyyy'), to_date('19-03-2024', 'dd-mm-yyyy'), null, '391352233', '800071003', 947);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (38, to_date('02-11-2023', 'dd-mm-yyyy'), to_date('16-11-2023', 'dd-mm-yyyy'), null, '963083303', '694117241', 467);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (39, to_date('09-10-2011', 'dd-mm-yyyy'), to_date('18-11-2015', 'dd-mm-yyyy'), null, '914006622', '268281389', 83);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (40, to_date('12-11-2015', 'dd-mm-yyyy'), to_date('26-11-2015', 'dd-mm-yyyy'), null, '441785402', '186164668', 373);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (41, to_date('24-09-2007', 'dd-mm-yyyy'), to_date('22-01-2020', 'dd-mm-yyyy'), null, '520422787', '235761739', 893);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (42, to_date('05-11-2018', 'dd-mm-yyyy'), to_date('19-11-2018', 'dd-mm-yyyy'), null, '913760353', '971662190', 20);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (43, to_date('12-06-2002', 'dd-mm-yyyy'), to_date('26-03-2016', 'dd-mm-yyyy'), null, '436366104', '980594838', 39);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (44, to_date('29-04-2012', 'dd-mm-yyyy'), to_date('13-05-2012', 'dd-mm-yyyy'), null, '805127954', '965000417', 270);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (45, to_date('13-12-2020', 'dd-mm-yyyy'), to_date('30-01-2024', 'dd-mm-yyyy'), null, '273149266', '045601319', 826);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (46, to_date('25-07-2009', 'dd-mm-yyyy'), to_date('03-01-2020', 'dd-mm-yyyy'), null, '054248733', '847250676', 84);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (47, to_date('24-10-2009', 'dd-mm-yyyy'), to_date('22-07-2016', 'dd-mm-yyyy'), null, '077468421', '176375614', 335);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (48, to_date('13-12-2018', 'dd-mm-yyyy'), to_date('06-08-2022', 'dd-mm-yyyy'), null, '035510904', '850334182', 591);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (49, to_date('14-09-2022', 'dd-mm-yyyy'), to_date('22-04-2024', 'dd-mm-yyyy'), null, '978612834', '106927049', 129);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (50, to_date('16-05-2009', 'dd-mm-yyyy'), to_date('11-02-2016', 'dd-mm-yyyy'), null, '216475555', '490830032', 767);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (51, to_date('27-02-2012', 'dd-mm-yyyy'), to_date('12-03-2012', 'dd-mm-yyyy'), null, '226545801', '772907524', 499);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (52, to_date('04-07-2021', 'dd-mm-yyyy'), to_date('18-07-2021', 'dd-mm-yyyy'), null, '783055575', '913647996', 319);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (53, to_date('01-05-2017', 'dd-mm-yyyy'), to_date('03-02-2023', 'dd-mm-yyyy'), null, '420027444', '608394597', 882);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (54, to_date('15-04-2013', 'dd-mm-yyyy'), to_date('09-09-2022', 'dd-mm-yyyy'), null, '241206486', '267137605', 849);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (55, to_date('25-06-2018', 'dd-mm-yyyy'), to_date('09-07-2018', 'dd-mm-yyyy'), null, '377017130', '255474214', 214);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (56, to_date('20-01-2000', 'dd-mm-yyyy'), to_date('21-02-2021', 'dd-mm-yyyy'), null, '029695329', '319029281', 832);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (57, to_date('04-07-2018', 'dd-mm-yyyy'), to_date('18-07-2018', 'dd-mm-yyyy'), null, '043939492', '864337815', 94);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (58, to_date('02-11-2015', 'dd-mm-yyyy'), to_date('23-07-2023', 'dd-mm-yyyy'), null, '582783692', '216475555', 90);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (59, to_date('15-08-2004', 'dd-mm-yyyy'), to_date('11-02-2017', 'dd-mm-yyyy'), null, '039153067', '301487527', 443);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (60, to_date('22-12-2017', 'dd-mm-yyyy'), to_date('28-05-2023', 'dd-mm-yyyy'), null, '161677298', '632046362', 632);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (61, to_date('27-07-2007', 'dd-mm-yyyy'), to_date('02-02-2015', 'dd-mm-yyyy'), null, '029124580', '379348654', 200);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (62, to_date('09-05-2010', 'dd-mm-yyyy'), to_date('16-06-2023', 'dd-mm-yyyy'), null, '240939313', '192192535', 950);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (63, to_date('12-09-2007', 'dd-mm-yyyy'), to_date('29-11-2020', 'dd-mm-yyyy'), null, '874752399', '053166731', 717);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (64, to_date('19-09-2008', 'dd-mm-yyyy'), to_date('18-02-2019', 'dd-mm-yyyy'), null, '932959604', '830383231', 512);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (65, to_date('29-09-2014', 'dd-mm-yyyy'), to_date('13-10-2014', 'dd-mm-yyyy'), null, '913760353', '353108066', 487);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (66, to_date('05-06-2012', 'dd-mm-yyyy'), to_date('03-12-2018', 'dd-mm-yyyy'), null, '526716833', '034808493', 362);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (67, to_date('30-07-2000', 'dd-mm-yyyy'), to_date('27-04-2022', 'dd-mm-yyyy'), null, '310404144', '776528409', 792);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (68, to_date('27-03-2022', 'dd-mm-yyyy'), to_date('10-04-2022', 'dd-mm-yyyy'), null, '507745420', '602220915', 864);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (69, to_date('24-06-2003', 'dd-mm-yyyy'), to_date('19-04-2010', 'dd-mm-yyyy'), null, '149245218', '914751680', 728);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (70, to_date('17-09-2018', 'dd-mm-yyyy'), to_date('01-10-2018', 'dd-mm-yyyy'), null, '664089285', '217140305', 547);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (71, to_date('06-04-2008', 'dd-mm-yyyy'), to_date('02-05-2015', 'dd-mm-yyyy'), null, '464019730', '632046362', 283);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (72, to_date('29-03-2007', 'dd-mm-yyyy'), to_date('31-03-2017', 'dd-mm-yyyy'), null, '873355323', '361560323', 538);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (73, to_date('04-08-2009', 'dd-mm-yyyy'), to_date('17-08-2019', 'dd-mm-yyyy'), null, '391486802', '880659583', 221);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (74, to_date('07-07-2013', 'dd-mm-yyyy'), to_date('21-07-2013', 'dd-mm-yyyy'), null, '164868085', '173956351', 137);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (75, to_date('16-06-2012', 'dd-mm-yyyy'), to_date('30-06-2012', 'dd-mm-yyyy'), null, '526716833', '269524383', 262);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (76, to_date('08-05-2007', 'dd-mm-yyyy'), to_date('10-08-2015', 'dd-mm-yyyy'), null, '413075709', '110778805', 379);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (77, to_date('18-11-2008', 'dd-mm-yyyy'), to_date('08-09-2015', 'dd-mm-yyyy'), null, '418542865', '348007353', 756);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (78, to_date('27-03-2002', 'dd-mm-yyyy'), to_date('08-07-2017', 'dd-mm-yyyy'), null, '871507308', '158263429', 545);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (79, to_date('08-05-2002', 'dd-mm-yyyy'), to_date('10-11-2013', 'dd-mm-yyyy'), null, '847250676', '736410796', 389);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (80, to_date('04-07-2012', 'dd-mm-yyyy'), to_date('05-05-2020', 'dd-mm-yyyy'), null, '638353369', '886474743', 218);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (81, to_date('21-09-2002', 'dd-mm-yyyy'), to_date('16-05-2024', 'dd-mm-yyyy'), null, '310404144', '758867042', 829);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (82, to_date('26-10-2003', 'dd-mm-yyyy'), to_date('14-09-2011', 'dd-mm-yyyy'), null, '271730213', '140829165', 464);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (83, to_date('08-09-2008', 'dd-mm-yyyy'), to_date('17-02-2018', 'dd-mm-yyyy'), null, '342956097', '315680603', 372);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (84, to_date('03-10-2002', 'dd-mm-yyyy'), to_date('27-12-2017', 'dd-mm-yyyy'), null, '574465011', '736410796', 824);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (85, to_date('21-09-2023', 'dd-mm-yyyy'), to_date('05-10-2023', 'dd-mm-yyyy'), null, '846104984', '934564949', 91);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (86, to_date('02-11-2007', 'dd-mm-yyyy'), to_date('24-10-2017', 'dd-mm-yyyy'), null, '311514630', '077412256', 899);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (87, to_date('09-05-2010', 'dd-mm-yyyy'), to_date('15-10-2012', 'dd-mm-yyyy'), null, '644249525', '274453753', 834);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (88, to_date('27-11-2019', 'dd-mm-yyyy'), to_date('11-12-2019', 'dd-mm-yyyy'), null, '897822661', '853596678', 93);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (89, to_date('15-06-2021', 'dd-mm-yyyy'), to_date('29-06-2021', 'dd-mm-yyyy'), null, '490830032', '771616343', 546);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (90, to_date('10-05-2005', 'dd-mm-yyyy'), to_date('11-06-2012', 'dd-mm-yyyy'), null, '499600585', '268281389', 651);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (91, to_date('10-11-2019', 'dd-mm-yyyy'), to_date('25-11-2021', 'dd-mm-yyyy'), null, '480612577', '376926882', 948);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (92, to_date('13-12-2010', 'dd-mm-yyyy'), to_date('18-09-2013', 'dd-mm-yyyy'), null, '244652438', '619112383', 572);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (93, to_date('14-08-2018', 'dd-mm-yyyy'), to_date('28-08-2018', 'dd-mm-yyyy'), null, '141519886', '377113286', 365);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (94, to_date('05-08-2018', 'dd-mm-yyyy'), to_date('26-11-2021', 'dd-mm-yyyy'), null, '735902946', '500068415', 30);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (95, to_date('07-02-2020', 'dd-mm-yyyy'), to_date('21-02-2020', 'dd-mm-yyyy'), null, '126770208', '953469588', 773);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (96, to_date('07-12-2022', 'dd-mm-yyyy'), to_date('21-12-2022', 'dd-mm-yyyy'), null, '886314861', '703815502', 739);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (97, to_date('07-03-2019', 'dd-mm-yyyy'), to_date('21-03-2019', 'dd-mm-yyyy'), null, '718788104', '288606298', 77);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (98, to_date('21-01-2017', 'dd-mm-yyyy'), to_date('28-06-2021', 'dd-mm-yyyy'), null, '046657439', '432425942', 719);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (99, to_date('10-04-2018', 'dd-mm-yyyy'), to_date('11-12-2020', 'dd-mm-yyyy'), null, '221505949', '738373379', 92);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (100, to_date('15-10-2015', 'dd-mm-yyyy'), to_date('31-03-2016', 'dd-mm-yyyy'), null, '562094648', '949649669', 349);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-03-2022', 'dd-mm-yyyy'), to_date('06-12-2022', 'dd-mm-yyyy'), null, '989570315', '596690563', 650);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-09-2022', 'dd-mm-yyyy'), to_date('25-09-2022', 'dd-mm-yyyy'), null, '874481938', '376926882', 403);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-03-2020', 'dd-mm-yyyy'), to_date('10-04-2020', 'dd-mm-yyyy'), null, '915923130', '526829293', 207);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-06-2011', 'dd-mm-yyyy'), to_date('18-03-2014', 'dd-mm-yyyy'), null, '913760353', '631487255', 304);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-08-2014', 'dd-mm-yyyy'), to_date('29-12-2022', 'dd-mm-yyyy'), null, '353506388', '791299463', 653);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-02-2009', 'dd-mm-yyyy'), to_date('12-11-2013', 'dd-mm-yyyy'), null, '066613546', '081383228', 642);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-01-2008', 'dd-mm-yyyy'), to_date('25-04-2013', 'dd-mm-yyyy'), null, '725276037', '214713146', 5);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-01-2016', 'dd-mm-yyyy'), to_date('31-01-2016', 'dd-mm-yyyy'), null, '793092711', '519792429', 298);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-07-2010', 'dd-mm-yyyy'), to_date('19-09-2014', 'dd-mm-yyyy'), null, '645106048', '498766701', 461);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-04-2015', 'dd-mm-yyyy'), to_date('24-04-2015', 'dd-mm-yyyy'), null, '413075709', '945150294', 698);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-09-2009', 'dd-mm-yyyy'), to_date('30-04-2011', 'dd-mm-yyyy'), null, '275681892', '526540050', 663);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-05-2003', 'dd-mm-yyyy'), to_date('30-04-2011', 'dd-mm-yyyy'), null, '688973370', '001852633', 33);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-02-2016', 'dd-mm-yyyy'), to_date('12-06-2018', 'dd-mm-yyyy'), null, '563934878', '524896676', 333);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-04-2017', 'dd-mm-yyyy'), to_date('05-05-2017', 'dd-mm-yyyy'), null, '235099187', '461518573', 22);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-04-2021', 'dd-mm-yyyy'), to_date('20-08-2023', 'dd-mm-yyyy'), null, '992475501', '187515796', 400);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-04-2012', 'dd-mm-yyyy'), to_date('14-05-2015', 'dd-mm-yyyy'), null, '938101191', '086072867', 868);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-11-2012', 'dd-mm-yyyy'), to_date('10-04-2022', 'dd-mm-yyyy'), null, '053078260', '017605424', 369);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-02-2008', 'dd-mm-yyyy'), to_date('18-06-2016', 'dd-mm-yyyy'), null, '800071003', '917208879', 1);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-12-2022', 'dd-mm-yyyy'), to_date('09-01-2023', 'dd-mm-yyyy'), null, '311690756', '170713739', 288);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-03-2017', 'dd-mm-yyyy'), to_date('10-04-2017', 'dd-mm-yyyy'), null, '878867388', '667461962', 475);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-06-2006', 'dd-mm-yyyy'), to_date('14-03-2017', 'dd-mm-yyyy'), null, '377017130', '263852543', 660);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-06-2020', 'dd-mm-yyyy'), to_date('10-07-2020', 'dd-mm-yyyy'), null, '081383228', '853341811', 415);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-03-2000', 'dd-mm-yyyy'), to_date('26-01-2022', 'dd-mm-yyyy'), null, '989570315', '856216050', 422);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-06-2018', 'dd-mm-yyyy'), to_date('11-12-2022', 'dd-mm-yyyy'), null, '878867388', '998214636', 801);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-09-2010', 'dd-mm-yyyy'), to_date('14-11-2018', 'dd-mm-yyyy'), null, '379348654', '096353906', 284);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-08-2021', 'dd-mm-yyyy'), to_date('24-03-2024', 'dd-mm-yyyy'), null, '562094648', '703815502', 202);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-06-2023', 'dd-mm-yyyy'), to_date('12-07-2023', 'dd-mm-yyyy'), null, '874752399', '319029281', 292);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-05-2016', 'dd-mm-yyyy'), to_date('06-12-2023', 'dd-mm-yyyy'), null, '261535229', '012259052', 976);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-08-2013', 'dd-mm-yyyy'), to_date('18-01-2022', 'dd-mm-yyyy'), null, '915372180', '582783692', 816);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-06-2019', 'dd-mm-yyyy'), to_date('16-06-2019', 'dd-mm-yyyy'), null, '035510904', '549134893', 240);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-05-2021', 'dd-mm-yyyy'), to_date('01-06-2021', 'dd-mm-yyyy'), null, '379348654', '315680603', 745);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-08-2013', 'dd-mm-yyyy'), to_date('20-09-2020', 'dd-mm-yyyy'), null, '417953406', '819819701', 815);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-01-2020', 'dd-mm-yyyy'), to_date('17-01-2023', 'dd-mm-yyyy'), null, '826540393', '281102853', 869);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-07-2014', 'dd-mm-yyyy'), to_date('14-08-2014', 'dd-mm-yyyy'), null, '553241085', '928264310', 446);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-03-2014', 'dd-mm-yyyy'), to_date('01-05-2018', 'dd-mm-yyyy'), null, '264847178', '081383228', 479);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-08-2001', 'dd-mm-yyyy'), to_date('26-02-2024', 'dd-mm-yyyy'), null, '155490931', '831042091', 239);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-07-2010', 'dd-mm-yyyy'), to_date('19-03-2024', 'dd-mm-yyyy'), null, '391352233', '800071003', 947);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-11-2023', 'dd-mm-yyyy'), to_date('16-11-2023', 'dd-mm-yyyy'), null, '963083303', '694117241', 467);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-10-2011', 'dd-mm-yyyy'), to_date('18-11-2015', 'dd-mm-yyyy'), null, '914006622', '268281389', 83);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-11-2015', 'dd-mm-yyyy'), to_date('26-11-2015', 'dd-mm-yyyy'), null, '441785402', '186164668', 373);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-09-2007', 'dd-mm-yyyy'), to_date('22-01-2020', 'dd-mm-yyyy'), null, '520422787', '235761739', 893);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-11-2018', 'dd-mm-yyyy'), to_date('19-11-2018', 'dd-mm-yyyy'), null, '913760353', '971662190', 20);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-06-2002', 'dd-mm-yyyy'), to_date('26-03-2016', 'dd-mm-yyyy'), null, '436366104', '980594838', 39);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-04-2012', 'dd-mm-yyyy'), to_date('13-05-2012', 'dd-mm-yyyy'), null, '805127954', '965000417', 270);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-12-2020', 'dd-mm-yyyy'), to_date('30-01-2024', 'dd-mm-yyyy'), null, '273149266', '045601319', 826);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-07-2009', 'dd-mm-yyyy'), to_date('03-01-2020', 'dd-mm-yyyy'), null, '054248733', '847250676', 84);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-10-2009', 'dd-mm-yyyy'), to_date('22-07-2016', 'dd-mm-yyyy'), null, '077468421', '176375614', 335);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-12-2018', 'dd-mm-yyyy'), to_date('06-08-2022', 'dd-mm-yyyy'), null, '035510904', '850334182', 591);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-09-2022', 'dd-mm-yyyy'), to_date('22-04-2024', 'dd-mm-yyyy'), null, '978612834', '106927049', 129);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-05-2009', 'dd-mm-yyyy'), to_date('11-02-2016', 'dd-mm-yyyy'), null, '216475555', '490830032', 767);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-02-2012', 'dd-mm-yyyy'), to_date('12-03-2012', 'dd-mm-yyyy'), null, '226545801', '772907524', 499);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-07-2021', 'dd-mm-yyyy'), to_date('18-07-2021', 'dd-mm-yyyy'), null, '783055575', '913647996', 319);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-05-2017', 'dd-mm-yyyy'), to_date('03-02-2023', 'dd-mm-yyyy'), null, '420027444', '608394597', 882);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-04-2013', 'dd-mm-yyyy'), to_date('09-09-2022', 'dd-mm-yyyy'), null, '241206486', '267137605', 849);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-06-2018', 'dd-mm-yyyy'), to_date('09-07-2018', 'dd-mm-yyyy'), null, '377017130', '255474214', 214);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-01-2000', 'dd-mm-yyyy'), to_date('21-02-2021', 'dd-mm-yyyy'), null, '029695329', '319029281', 832);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-07-2018', 'dd-mm-yyyy'), to_date('18-07-2018', 'dd-mm-yyyy'), null, '043939492', '864337815', 94);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-11-2015', 'dd-mm-yyyy'), to_date('23-07-2023', 'dd-mm-yyyy'), null, '582783692', '216475555', 90);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-08-2004', 'dd-mm-yyyy'), to_date('11-02-2017', 'dd-mm-yyyy'), null, '039153067', '301487527', 443);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-12-2017', 'dd-mm-yyyy'), to_date('28-05-2023', 'dd-mm-yyyy'), null, '161677298', '632046362', 632);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-07-2007', 'dd-mm-yyyy'), to_date('02-02-2015', 'dd-mm-yyyy'), null, '029124580', '379348654', 200);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-05-2010', 'dd-mm-yyyy'), to_date('16-06-2023', 'dd-mm-yyyy'), null, '240939313', '192192535', 950);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-09-2007', 'dd-mm-yyyy'), to_date('29-11-2020', 'dd-mm-yyyy'), null, '874752399', '053166731', 717);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-09-2008', 'dd-mm-yyyy'), to_date('18-02-2019', 'dd-mm-yyyy'), null, '932959604', '830383231', 512);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-09-2014', 'dd-mm-yyyy'), to_date('13-10-2014', 'dd-mm-yyyy'), null, '913760353', '353108066', 487);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-06-2012', 'dd-mm-yyyy'), to_date('03-12-2018', 'dd-mm-yyyy'), null, '526716833', '034808493', 362);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-07-2000', 'dd-mm-yyyy'), to_date('27-04-2022', 'dd-mm-yyyy'), null, '310404144', '776528409', 792);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-03-2022', 'dd-mm-yyyy'), to_date('10-04-2022', 'dd-mm-yyyy'), null, '507745420', '602220915', 864);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-06-2003', 'dd-mm-yyyy'), to_date('19-04-2010', 'dd-mm-yyyy'), null, '149245218', '914751680', 728);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-09-2018', 'dd-mm-yyyy'), to_date('01-10-2018', 'dd-mm-yyyy'), null, '664089285', '217140305', 547);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-04-2008', 'dd-mm-yyyy'), to_date('02-05-2015', 'dd-mm-yyyy'), null, '464019730', '632046362', 283);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-03-2007', 'dd-mm-yyyy'), to_date('31-03-2017', 'dd-mm-yyyy'), null, '873355323', '361560323', 538);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-08-2009', 'dd-mm-yyyy'), to_date('17-08-2019', 'dd-mm-yyyy'), null, '391486802', '880659583', 221);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-07-2013', 'dd-mm-yyyy'), to_date('21-07-2013', 'dd-mm-yyyy'), null, '164868085', '173956351', 137);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-06-2012', 'dd-mm-yyyy'), to_date('30-06-2012', 'dd-mm-yyyy'), null, '526716833', '269524383', 262);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-05-2007', 'dd-mm-yyyy'), to_date('10-08-2015', 'dd-mm-yyyy'), null, '413075709', '110778805', 379);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-11-2008', 'dd-mm-yyyy'), to_date('08-09-2015', 'dd-mm-yyyy'), null, '418542865', '348007353', 756);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-03-2002', 'dd-mm-yyyy'), to_date('08-07-2017', 'dd-mm-yyyy'), null, '871507308', '158263429', 545);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-05-2002', 'dd-mm-yyyy'), to_date('10-11-2013', 'dd-mm-yyyy'), null, '847250676', '736410796', 389);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-07-2012', 'dd-mm-yyyy'), to_date('05-05-2020', 'dd-mm-yyyy'), null, '638353369', '886474743', 218);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-09-2002', 'dd-mm-yyyy'), to_date('16-05-2024', 'dd-mm-yyyy'), null, '310404144', '758867042', 829);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-10-2003', 'dd-mm-yyyy'), to_date('14-09-2011', 'dd-mm-yyyy'), null, '271730213', '140829165', 464);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-09-2008', 'dd-mm-yyyy'), to_date('17-02-2018', 'dd-mm-yyyy'), null, '342956097', '315680603', 372);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-10-2002', 'dd-mm-yyyy'), to_date('27-12-2017', 'dd-mm-yyyy'), null, '574465011', '736410796', 824);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-09-2023', 'dd-mm-yyyy'), to_date('05-10-2023', 'dd-mm-yyyy'), null, '846104984', '934564949', 91);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-11-2007', 'dd-mm-yyyy'), to_date('24-10-2017', 'dd-mm-yyyy'), null, '311514630', '077412256', 899);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-05-2010', 'dd-mm-yyyy'), to_date('15-10-2012', 'dd-mm-yyyy'), null, '644249525', '274453753', 834);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-11-2019', 'dd-mm-yyyy'), to_date('11-12-2019', 'dd-mm-yyyy'), null, '897822661', '853596678', 93);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-06-2021', 'dd-mm-yyyy'), to_date('29-06-2021', 'dd-mm-yyyy'), null, '490830032', '771616343', 546);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-05-2005', 'dd-mm-yyyy'), to_date('11-06-2012', 'dd-mm-yyyy'), null, '499600585', '268281389', 651);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-11-2019', 'dd-mm-yyyy'), to_date('25-11-2021', 'dd-mm-yyyy'), null, '480612577', '376926882', 948);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-12-2010', 'dd-mm-yyyy'), to_date('18-09-2013', 'dd-mm-yyyy'), null, '244652438', '619112383', 572);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-08-2018', 'dd-mm-yyyy'), to_date('28-08-2018', 'dd-mm-yyyy'), null, '141519886', '377113286', 365);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-08-2018', 'dd-mm-yyyy'), to_date('26-11-2021', 'dd-mm-yyyy'), null, '735902946', '500068415', 30);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-02-2020', 'dd-mm-yyyy'), to_date('21-02-2020', 'dd-mm-yyyy'), null, '126770208', '953469588', 773);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-12-2022', 'dd-mm-yyyy'), to_date('21-12-2022', 'dd-mm-yyyy'), null, '886314861', '703815502', 739);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-03-2019', 'dd-mm-yyyy'), to_date('21-03-2019', 'dd-mm-yyyy'), null, '718788104', '288606298', 77);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-01-2017', 'dd-mm-yyyy'), to_date('28-06-2021', 'dd-mm-yyyy'), null, '046657439', '432425942', 719);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-04-2018', 'dd-mm-yyyy'), to_date('11-12-2020', 'dd-mm-yyyy'), null, '221505949', '738373379', 92);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-10-2015', 'dd-mm-yyyy'), to_date('31-03-2016', 'dd-mm-yyyy'), null, '562094648', '949649669', 349);
 commit;
 prompt 100 records committed...
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (101, to_date('24-04-2012', 'dd-mm-yyyy'), to_date('14-05-2015', 'dd-mm-yyyy'), null, '828869477', '553241085', 914);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (102, to_date('03-08-2022', 'dd-mm-yyyy'), to_date('17-08-2022', 'dd-mm-yyyy'), null, '327179287', '177902350', 871);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (103, to_date('15-09-2010', 'dd-mm-yyyy'), to_date('28-08-2014', 'dd-mm-yyyy'), null, '803660894', '942977640', 112);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (104, to_date('12-01-2015', 'dd-mm-yyyy'), to_date('01-04-2023', 'dd-mm-yyyy'), null, '639941357', '420027444', 275);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (105, to_date('23-03-2010', 'dd-mm-yyyy'), to_date('06-04-2010', 'dd-mm-yyyy'), null, '045601319', '846104984', 785);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (106, to_date('27-05-2010', 'dd-mm-yyyy'), to_date('21-07-2020', 'dd-mm-yyyy'), null, '594588133', '146137062', 969);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (107, to_date('03-02-2005', 'dd-mm-yyyy'), to_date('23-08-2018', 'dd-mm-yyyy'), null, '676285276', '025274453', 457);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (108, to_date('15-02-2006', 'dd-mm-yyyy'), to_date('03-01-2017', 'dd-mm-yyyy'), null, '127097395', '155248136', 644);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (109, to_date('14-05-2021', 'dd-mm-yyyy'), to_date('28-05-2021', 'dd-mm-yyyy'), null, '238684624', '676285276', 536);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (110, to_date('06-11-2016', 'dd-mm-yyyy'), to_date('28-09-2023', 'dd-mm-yyyy'), null, '831042091', '677097969', 877);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (402, to_date('07-07-2024 13:37:42', 'dd-mm-yyyy hh24:mi:ss'), to_date('21-07-2024', 'dd-mm-yyyy'), to_date('07-07-2024 17:13:21', 'dd-mm-yyyy hh24:mi:ss'), '418542865', '087859207', 658);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (111, to_date('04-07-2004', 'dd-mm-yyyy'), to_date('03-12-2011', 'dd-mm-yyyy'), null, '922607270', '905167354', 652);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (112, to_date('17-10-2000', 'dd-mm-yyyy'), to_date('14-06-2015', 'dd-mm-yyyy'), null, '464019730', '633954768', 788);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (113, to_date('07-08-2007', 'dd-mm-yyyy'), to_date('01-10-2018', 'dd-mm-yyyy'), null, '963083303', '374339845', 838);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (114, to_date('07-09-2007', 'dd-mm-yyyy'), to_date('26-06-2011', 'dd-mm-yyyy'), null, '653774196', '173956351', 344);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (115, to_date('14-07-2020', 'dd-mm-yyyy'), to_date('28-07-2020', 'dd-mm-yyyy'), null, '507745420', '697531067', 199);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (116, to_date('21-04-2023', 'dd-mm-yyyy'), to_date('05-05-2023', 'dd-mm-yyyy'), null, '250712526', '377113286', 885);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (117, to_date('22-01-2023', 'dd-mm-yyyy'), to_date('05-02-2023', 'dd-mm-yyyy'), null, '188284365', '771616343', 197);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (118, to_date('12-01-2007', 'dd-mm-yyyy'), to_date('21-01-2016', 'dd-mm-yyyy'), null, '542900586', '830383231', 16);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (119, to_date('27-10-2020', 'dd-mm-yyyy'), to_date('10-11-2020', 'dd-mm-yyyy'), null, '456794713', '851278188', 607);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (120, to_date('26-12-2012', 'dd-mm-yyyy'), to_date('01-12-2014', 'dd-mm-yyyy'), null, '518249933', '846104984', 972);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (121, to_date('16-02-2003', 'dd-mm-yyyy'), to_date('17-05-2019', 'dd-mm-yyyy'), null, '409480749', '424762764', 640);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (122, to_date('08-02-2023', 'dd-mm-yyyy'), to_date('22-02-2023', 'dd-mm-yyyy'), null, '031510193', '113036851', 470);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (123, to_date('30-12-2003', 'dd-mm-yyyy'), to_date('04-06-2019', 'dd-mm-yyyy'), null, '574465011', '245422235', 246);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (124, to_date('02-07-2003', 'dd-mm-yyyy'), to_date('16-01-2020', 'dd-mm-yyyy'), null, '334283784', '257484513', 321);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (125, to_date('01-07-2011', 'dd-mm-yyyy'), to_date('24-08-2019', 'dd-mm-yyyy'), null, '542900586', '154465176', 810);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (126, to_date('07-10-2023', 'dd-mm-yyyy'), to_date('21-10-2023', 'dd-mm-yyyy'), null, '376247399', '771616343', 580);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (127, to_date('15-03-2007', 'dd-mm-yyyy'), to_date('05-10-2010', 'dd-mm-yyyy'), null, '594588133', '232611240', 980);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (128, to_date('04-02-2010', 'dd-mm-yyyy'), to_date('18-06-2023', 'dd-mm-yyyy'), null, '327375753', '920761389', 729);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (129, to_date('27-05-2012', 'dd-mm-yyyy'), to_date('26-04-2021', 'dd-mm-yyyy'), null, '591957858', '801792400', 927);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (130, to_date('03-12-2002', 'dd-mm-yyyy'), to_date('25-11-2014', 'dd-mm-yyyy'), null, '356235416', '891562139', 574);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (131, to_date('01-11-2022', 'dd-mm-yyyy'), to_date('15-11-2022', 'dd-mm-yyyy'), null, '170713739', '379348654', 657);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (132, to_date('22-02-2010', 'dd-mm-yyyy'), to_date('07-01-2011', 'dd-mm-yyyy'), null, '563934878', '077412256', 963);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (133, to_date('27-06-2007', 'dd-mm-yyyy'), to_date('02-01-2022', 'dd-mm-yyyy'), null, '731223212', '830383231', 627);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (134, to_date('12-10-2015', 'dd-mm-yyyy'), to_date('25-12-2020', 'dd-mm-yyyy'), null, '309357389', '625529602', 843);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (135, to_date('09-12-2006', 'dd-mm-yyyy'), to_date('24-01-2020', 'dd-mm-yyyy'), null, '252004653', '776528409', 565);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (136, to_date('05-05-2005', 'dd-mm-yyyy'), to_date('19-02-2014', 'dd-mm-yyyy'), null, '604788032', '555047971', 250);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (137, to_date('02-08-2002', 'dd-mm-yyyy'), to_date('04-02-2014', 'dd-mm-yyyy'), null, '029695329', '949649669', 408);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (138, to_date('13-01-2021', 'dd-mm-yyyy'), to_date('27-01-2021', 'dd-mm-yyyy'), null, '087859207', '574465011', 481);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (139, to_date('24-02-2006', 'dd-mm-yyyy'), to_date('29-08-2011', 'dd-mm-yyyy'), null, '737691770', '285703464', 219);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (140, to_date('10-09-2018', 'dd-mm-yyyy'), to_date('24-09-2018', 'dd-mm-yyyy'), null, '013427448', '487301584', 35);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (141, to_date('27-05-2019', 'dd-mm-yyyy'), to_date('10-06-2019', 'dd-mm-yyyy'), null, '066613546', '081383228', 491);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (142, to_date('29-03-2001', 'dd-mm-yyyy'), to_date('26-01-2015', 'dd-mm-yyyy'), null, '826540393', '342761949', 903);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (143, to_date('22-04-2014', 'dd-mm-yyyy'), to_date('11-02-2022', 'dd-mm-yyyy'), null, '267137605', '272137266', 912);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (144, to_date('13-05-2007', 'dd-mm-yyyy'), to_date('13-12-2021', 'dd-mm-yyyy'), null, '266091930', '145366143', 56);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (145, to_date('12-08-2000', 'dd-mm-yyyy'), to_date('25-09-2018', 'dd-mm-yyyy'), null, '828869477', '309732749', 65);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (146, to_date('09-04-2008', 'dd-mm-yyyy'), to_date('14-10-2021', 'dd-mm-yyyy'), null, '069849743', '336288257', 336);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (147, to_date('06-02-2014', 'dd-mm-yyyy'), to_date('21-12-2023', 'dd-mm-yyyy'), null, '311514630', '376926882', 145);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (148, to_date('17-06-2016', 'dd-mm-yyyy'), to_date('05-05-2022', 'dd-mm-yyyy'), null, '669562483', '348723377', 196);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (149, to_date('06-04-2011', 'dd-mm-yyyy'), to_date('04-09-2017', 'dd-mm-yyyy'), null, '614784421', '063300220', 879);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (150, to_date('03-04-2012', 'dd-mm-yyyy'), to_date('29-04-2015', 'dd-mm-yyyy'), null, '688569966', '920761389', 629);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (151, to_date('12-05-2014', 'dd-mm-yyyy'), to_date('18-11-2023', 'dd-mm-yyyy'), null, '989981369', '086121419', 245);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (152, to_date('26-05-2019', 'dd-mm-yyyy'), to_date('09-06-2019', 'dd-mm-yyyy'), null, '559859523', '022601726', 195);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (153, to_date('14-04-2019', 'dd-mm-yyyy'), to_date('30-01-2021', 'dd-mm-yyyy'), null, '922607270', '915567582', 152);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (154, to_date('24-06-2022', 'dd-mm-yyyy'), to_date('08-07-2022', 'dd-mm-yyyy'), null, '843169084', '711309756', 854);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (155, to_date('25-10-2006', 'dd-mm-yyyy'), to_date('27-08-2015', 'dd-mm-yyyy'), null, '180191326', '920761389', 777);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (156, to_date('06-02-2023', 'dd-mm-yyyy'), to_date('20-02-2023', 'dd-mm-yyyy'), null, '054248733', '146137062', 69);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (157, to_date('21-10-2008', 'dd-mm-yyyy'), to_date('03-06-2014', 'dd-mm-yyyy'), null, '989570315', '849628298', 236);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (158, to_date('21-10-2006', 'dd-mm-yyyy'), to_date('22-11-2014', 'dd-mm-yyyy'), null, '905167354', '058608539', 863);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (159, to_date('04-10-2016', 'dd-mm-yyyy'), to_date('11-11-2023', 'dd-mm-yyyy'), null, '738373379', '837162122', 405);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (160, to_date('08-10-2008', 'dd-mm-yyyy'), to_date('21-10-2020', 'dd-mm-yyyy'), null, '531653197', '621314773', 791);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (161, to_date('06-10-2003', 'dd-mm-yyyy'), to_date('13-10-2019', 'dd-mm-yyyy'), null, '680540698', '014082919', 473);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (162, to_date('19-10-2018', 'dd-mm-yyyy'), to_date('31-03-2019', 'dd-mm-yyyy'), null, '511449615', '019362397', 931);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (163, to_date('30-11-2020', 'dd-mm-yyyy'), to_date('14-12-2020', 'dd-mm-yyyy'), null, '789950829', '682014481', 513);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (164, to_date('13-05-2019', 'dd-mm-yyyy'), to_date('27-05-2019', 'dd-mm-yyyy'), null, '577720618', '028592641', 550);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (165, to_date('04-01-2006', 'dd-mm-yyyy'), to_date('29-07-2011', 'dd-mm-yyyy'), null, '915923130', '055509419', 952);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (166, to_date('16-09-2009', 'dd-mm-yyyy'), to_date('25-10-2014', 'dd-mm-yyyy'), null, '803660894', '146137062', 966);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (167, to_date('02-11-2017', 'dd-mm-yyyy'), to_date('16-11-2017', 'dd-mm-yyyy'), null, '313589600', '645106048', 757);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (168, to_date('04-02-2002', 'dd-mm-yyyy'), to_date('12-11-2011', 'dd-mm-yyyy'), null, '029124580', '965000417', 509);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (169, to_date('04-10-2022', 'dd-mm-yyyy'), to_date('18-10-2022', 'dd-mm-yyyy'), null, '697531067', '072820783', 923);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (170, to_date('30-07-2009', 'dd-mm-yyyy'), to_date('22-10-2011', 'dd-mm-yyyy'), null, '523453408', '658307215', 892);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (171, to_date('01-06-2021', 'dd-mm-yyyy'), to_date('15-06-2021', 'dd-mm-yyyy'), null, '127097395', '033035228', 42);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (172, to_date('24-03-2009', 'dd-mm-yyyy'), to_date('18-08-2022', 'dd-mm-yyyy'), null, '688973370', '676285276', 643);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (173, to_date('10-01-2023', 'dd-mm-yyyy'), to_date('24-01-2023', 'dd-mm-yyyy'), null, '831042091', '189152630', 836);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (174, to_date('03-09-2020', 'dd-mm-yyyy'), to_date('17-09-2020', 'dd-mm-yyyy'), null, '239960682', '257484513', 559);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (175, to_date('02-12-2019', 'dd-mm-yyyy'), to_date('08-12-2023', 'dd-mm-yyyy'), null, '137842810', '442298493', 312);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (176, to_date('10-02-2020', 'dd-mm-yyyy'), to_date('24-02-2020', 'dd-mm-yyyy'), null, '917208879', '487301584', 188);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (177, to_date('01-04-2013', 'dd-mm-yyyy'), to_date('24-11-2021', 'dd-mm-yyyy'), null, '063528944', '555047971', 959);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (178, to_date('09-07-2007', 'dd-mm-yyyy'), to_date('01-02-2018', 'dd-mm-yyyy'), null, '322295223', '140829165', 593);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (179, to_date('12-05-2009', 'dd-mm-yyyy'), to_date('03-02-2018', 'dd-mm-yyyy'), null, '659562823', '559859523', 281);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (180, to_date('09-02-2021', 'dd-mm-yyyy'), to_date('07-10-2023', 'dd-mm-yyyy'), null, '093818015', '347276119', 471);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (181, to_date('24-06-2010', 'dd-mm-yyyy'), to_date('08-07-2010', 'dd-mm-yyyy'), null, '141166296', '578516249', 286);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (182, to_date('03-11-2008', 'dd-mm-yyyy'), to_date('06-12-2023', 'dd-mm-yyyy'), null, '740708570', '602220915', 278);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (183, to_date('30-10-2021', 'dd-mm-yyyy'), to_date('13-11-2021', 'dd-mm-yyyy'), null, '107455196', '485283160', 981);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (184, to_date('09-09-2021', 'dd-mm-yyyy'), to_date('23-09-2021', 'dd-mm-yyyy'), null, '614784421', '614782689', 213);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (185, to_date('12-08-2022', 'dd-mm-yyyy'), to_date('26-08-2022', 'dd-mm-yyyy'), null, '043939492', '920761389', 187);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (186, to_date('24-03-2010', 'dd-mm-yyyy'), to_date('09-06-2021', 'dd-mm-yyyy'), null, '418542865', '155248136', 87);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (187, to_date('18-01-2021', 'dd-mm-yyyy'), to_date('01-02-2021', 'dd-mm-yyyy'), null, '677905366', '390905524', 46);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (188, to_date('22-06-2003', 'dd-mm-yyyy'), to_date('26-12-2023', 'dd-mm-yyyy'), null, '045601319', '393777727', 823);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (189, to_date('02-03-2007', 'dd-mm-yyyy'), to_date('28-08-2015', 'dd-mm-yyyy'), null, '214335504', '077055177', 377);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (190, to_date('19-03-2009', 'dd-mm-yyyy'), to_date('09-04-2024', 'dd-mm-yyyy'), null, '175978110', '711309756', 366);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (191, to_date('31-05-2008', 'dd-mm-yyyy'), to_date('02-03-2016', 'dd-mm-yyyy'), null, '137842810', '245422235', 825);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (192, to_date('22-01-2011', 'dd-mm-yyyy'), to_date('12-09-2016', 'dd-mm-yyyy'), null, '061215635', '180966239', 356);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (193, to_date('09-12-2001', 'dd-mm-yyyy'), to_date('06-02-2011', 'dd-mm-yyyy'), null, '418350339', '485283160', 569);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (194, to_date('20-01-2019', 'dd-mm-yyyy'), to_date('08-12-2023', 'dd-mm-yyyy'), null, '107093007', '370469772', 141);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (195, to_date('01-12-2009', 'dd-mm-yyyy'), to_date('13-02-2019', 'dd-mm-yyyy'), null, '488229246', '826605920', 506);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (196, to_date('04-05-2001', 'dd-mm-yyyy'), to_date('23-11-2017', 'dd-mm-yyyy'), null, '022601726', '729801502', 469);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (197, to_date('28-02-2020', 'dd-mm-yyyy'), to_date('13-03-2020', 'dd-mm-yyyy'), null, '826540393', '682262028', 946);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (198, to_date('26-10-2011', 'dd-mm-yyyy'), to_date('07-03-2016', 'dd-mm-yyyy'), null, '039153067', '168438555', 417);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (199, to_date('15-11-2020', 'dd-mm-yyyy'), to_date('29-11-2020', 'dd-mm-yyyy'), null, '305084973', '984268974', 234);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-04-2012', 'dd-mm-yyyy'), to_date('14-05-2015', 'dd-mm-yyyy'), null, '828869477', '553241085', 914);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-08-2022', 'dd-mm-yyyy'), to_date('17-08-2022', 'dd-mm-yyyy'), null, '327179287', '177902350', 871);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-09-2010', 'dd-mm-yyyy'), to_date('28-08-2014', 'dd-mm-yyyy'), null, '803660894', '942977640', 112);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-01-2015', 'dd-mm-yyyy'), to_date('01-04-2023', 'dd-mm-yyyy'), null, '639941357', '420027444', 275);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-03-2010', 'dd-mm-yyyy'), to_date('06-04-2010', 'dd-mm-yyyy'), null, '045601319', '846104984', 785);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-05-2010', 'dd-mm-yyyy'), to_date('21-07-2020', 'dd-mm-yyyy'), null, '594588133', '146137062', 969);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-02-2005', 'dd-mm-yyyy'), to_date('23-08-2018', 'dd-mm-yyyy'), null, '676285276', '025274453', 457);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-02-2006', 'dd-mm-yyyy'), to_date('03-01-2017', 'dd-mm-yyyy'), null, '127097395', '155248136', 644);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-05-2021', 'dd-mm-yyyy'), to_date('28-05-2021', 'dd-mm-yyyy'), null, '238684624', '676285276', 536);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-11-2016', 'dd-mm-yyyy'), to_date('28-09-2023', 'dd-mm-yyyy'), null, '831042091', '677097969', 877);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-07-2024 13:37:42', 'dd-mm-yyyy hh24:mi:ss'), to_date('21-07-2024', 'dd-mm-yyyy'), to_date('07-07-2024 17:13:21', 'dd-mm-yyyy hh24:mi:ss'), '418542865', '087859207', 658);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-07-2004', 'dd-mm-yyyy'), to_date('03-12-2011', 'dd-mm-yyyy'), null, '922607270', '905167354', 652);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-10-2000', 'dd-mm-yyyy'), to_date('14-06-2015', 'dd-mm-yyyy'), null, '464019730', '633954768', 788);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-08-2007', 'dd-mm-yyyy'), to_date('01-10-2018', 'dd-mm-yyyy'), null, '963083303', '374339845', 838);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-09-2007', 'dd-mm-yyyy'), to_date('26-06-2011', 'dd-mm-yyyy'), null, '653774196', '173956351', 344);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-07-2020', 'dd-mm-yyyy'), to_date('28-07-2020', 'dd-mm-yyyy'), null, '507745420', '697531067', 199);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-04-2023', 'dd-mm-yyyy'), to_date('05-05-2023', 'dd-mm-yyyy'), null, '250712526', '377113286', 885);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-01-2023', 'dd-mm-yyyy'), to_date('05-02-2023', 'dd-mm-yyyy'), null, '188284365', '771616343', 197);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-01-2007', 'dd-mm-yyyy'), to_date('21-01-2016', 'dd-mm-yyyy'), null, '542900586', '830383231', 16);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-10-2020', 'dd-mm-yyyy'), to_date('10-11-2020', 'dd-mm-yyyy'), null, '456794713', '851278188', 607);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-12-2012', 'dd-mm-yyyy'), to_date('01-12-2014', 'dd-mm-yyyy'), null, '518249933', '846104984', 972);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-02-2003', 'dd-mm-yyyy'), to_date('17-05-2019', 'dd-mm-yyyy'), null, '409480749', '424762764', 640);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-02-2023', 'dd-mm-yyyy'), to_date('22-02-2023', 'dd-mm-yyyy'), null, '031510193', '113036851', 470);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-12-2003', 'dd-mm-yyyy'), to_date('04-06-2019', 'dd-mm-yyyy'), null, '574465011', '245422235', 246);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-07-2003', 'dd-mm-yyyy'), to_date('16-01-2020', 'dd-mm-yyyy'), null, '334283784', '257484513', 321);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-07-2011', 'dd-mm-yyyy'), to_date('24-08-2019', 'dd-mm-yyyy'), null, '542900586', '154465176', 810);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-10-2023', 'dd-mm-yyyy'), to_date('21-10-2023', 'dd-mm-yyyy'), null, '376247399', '771616343', 580);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-03-2007', 'dd-mm-yyyy'), to_date('05-10-2010', 'dd-mm-yyyy'), null, '594588133', '232611240', 980);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-02-2010', 'dd-mm-yyyy'), to_date('18-06-2023', 'dd-mm-yyyy'), null, '327375753', '920761389', 729);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-05-2012', 'dd-mm-yyyy'), to_date('26-04-2021', 'dd-mm-yyyy'), null, '591957858', '801792400', 927);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-12-2002', 'dd-mm-yyyy'), to_date('25-11-2014', 'dd-mm-yyyy'), null, '356235416', '891562139', 574);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-11-2022', 'dd-mm-yyyy'), to_date('15-11-2022', 'dd-mm-yyyy'), null, '170713739', '379348654', 657);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-02-2010', 'dd-mm-yyyy'), to_date('07-01-2011', 'dd-mm-yyyy'), null, '563934878', '077412256', 963);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-06-2007', 'dd-mm-yyyy'), to_date('02-01-2022', 'dd-mm-yyyy'), null, '731223212', '830383231', 627);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-10-2015', 'dd-mm-yyyy'), to_date('25-12-2020', 'dd-mm-yyyy'), null, '309357389', '625529602', 843);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-12-2006', 'dd-mm-yyyy'), to_date('24-01-2020', 'dd-mm-yyyy'), null, '252004653', '776528409', 565);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-05-2005', 'dd-mm-yyyy'), to_date('19-02-2014', 'dd-mm-yyyy'), null, '604788032', '555047971', 250);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-08-2002', 'dd-mm-yyyy'), to_date('04-02-2014', 'dd-mm-yyyy'), null, '029695329', '949649669', 408);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-01-2021', 'dd-mm-yyyy'), to_date('27-01-2021', 'dd-mm-yyyy'), null, '087859207', '574465011', 481);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-02-2006', 'dd-mm-yyyy'), to_date('29-08-2011', 'dd-mm-yyyy'), null, '737691770', '285703464', 219);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-09-2018', 'dd-mm-yyyy'), to_date('24-09-2018', 'dd-mm-yyyy'), null, '013427448', '487301584', 35);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-05-2019', 'dd-mm-yyyy'), to_date('10-06-2019', 'dd-mm-yyyy'), null, '066613546', '081383228', 491);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-03-2001', 'dd-mm-yyyy'), to_date('26-01-2015', 'dd-mm-yyyy'), null, '826540393', '342761949', 903);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-04-2014', 'dd-mm-yyyy'), to_date('11-02-2022', 'dd-mm-yyyy'), null, '267137605', '272137266', 912);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-05-2007', 'dd-mm-yyyy'), to_date('13-12-2021', 'dd-mm-yyyy'), null, '266091930', '145366143', 56);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-08-2000', 'dd-mm-yyyy'), to_date('25-09-2018', 'dd-mm-yyyy'), null, '828869477', '309732749', 65);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-04-2008', 'dd-mm-yyyy'), to_date('14-10-2021', 'dd-mm-yyyy'), null, '069849743', '336288257', 336);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-02-2014', 'dd-mm-yyyy'), to_date('21-12-2023', 'dd-mm-yyyy'), null, '311514630', '376926882', 145);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-06-2016', 'dd-mm-yyyy'), to_date('05-05-2022', 'dd-mm-yyyy'), null, '669562483', '348723377', 196);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-04-2011', 'dd-mm-yyyy'), to_date('04-09-2017', 'dd-mm-yyyy'), null, '614784421', '063300220', 879);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-04-2012', 'dd-mm-yyyy'), to_date('29-04-2015', 'dd-mm-yyyy'), null, '688569966', '920761389', 629);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-05-2014', 'dd-mm-yyyy'), to_date('18-11-2023', 'dd-mm-yyyy'), null, '989981369', '086121419', 245);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-05-2019', 'dd-mm-yyyy'), to_date('09-06-2019', 'dd-mm-yyyy'), null, '559859523', '022601726', 195);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-04-2019', 'dd-mm-yyyy'), to_date('30-01-2021', 'dd-mm-yyyy'), null, '922607270', '915567582', 152);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-06-2022', 'dd-mm-yyyy'), to_date('08-07-2022', 'dd-mm-yyyy'), null, '843169084', '711309756', 854);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-10-2006', 'dd-mm-yyyy'), to_date('27-08-2015', 'dd-mm-yyyy'), null, '180191326', '920761389', 777);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-02-2023', 'dd-mm-yyyy'), to_date('20-02-2023', 'dd-mm-yyyy'), null, '054248733', '146137062', 69);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-10-2008', 'dd-mm-yyyy'), to_date('03-06-2014', 'dd-mm-yyyy'), null, '989570315', '849628298', 236);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-10-2006', 'dd-mm-yyyy'), to_date('22-11-2014', 'dd-mm-yyyy'), null, '905167354', '058608539', 863);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-10-2016', 'dd-mm-yyyy'), to_date('11-11-2023', 'dd-mm-yyyy'), null, '738373379', '837162122', 405);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-10-2008', 'dd-mm-yyyy'), to_date('21-10-2020', 'dd-mm-yyyy'), null, '531653197', '621314773', 791);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-10-2003', 'dd-mm-yyyy'), to_date('13-10-2019', 'dd-mm-yyyy'), null, '680540698', '014082919', 473);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-10-2018', 'dd-mm-yyyy'), to_date('31-03-2019', 'dd-mm-yyyy'), null, '511449615', '019362397', 931);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-11-2020', 'dd-mm-yyyy'), to_date('14-12-2020', 'dd-mm-yyyy'), null, '789950829', '682014481', 513);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-05-2019', 'dd-mm-yyyy'), to_date('27-05-2019', 'dd-mm-yyyy'), null, '577720618', '028592641', 550);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-01-2006', 'dd-mm-yyyy'), to_date('29-07-2011', 'dd-mm-yyyy'), null, '915923130', '055509419', 952);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-09-2009', 'dd-mm-yyyy'), to_date('25-10-2014', 'dd-mm-yyyy'), null, '803660894', '146137062', 966);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-11-2017', 'dd-mm-yyyy'), to_date('16-11-2017', 'dd-mm-yyyy'), null, '313589600', '645106048', 757);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-02-2002', 'dd-mm-yyyy'), to_date('12-11-2011', 'dd-mm-yyyy'), null, '029124580', '965000417', 509);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-10-2022', 'dd-mm-yyyy'), to_date('18-10-2022', 'dd-mm-yyyy'), null, '697531067', '072820783', 923);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-07-2009', 'dd-mm-yyyy'), to_date('22-10-2011', 'dd-mm-yyyy'), null, '523453408', '658307215', 892);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-06-2021', 'dd-mm-yyyy'), to_date('15-06-2021', 'dd-mm-yyyy'), null, '127097395', '033035228', 42);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-03-2009', 'dd-mm-yyyy'), to_date('18-08-2022', 'dd-mm-yyyy'), null, '688973370', '676285276', 643);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-01-2023', 'dd-mm-yyyy'), to_date('24-01-2023', 'dd-mm-yyyy'), null, '831042091', '189152630', 836);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-09-2020', 'dd-mm-yyyy'), to_date('17-09-2020', 'dd-mm-yyyy'), null, '239960682', '257484513', 559);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-12-2019', 'dd-mm-yyyy'), to_date('08-12-2023', 'dd-mm-yyyy'), null, '137842810', '442298493', 312);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-02-2020', 'dd-mm-yyyy'), to_date('24-02-2020', 'dd-mm-yyyy'), null, '917208879', '487301584', 188);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-04-2013', 'dd-mm-yyyy'), to_date('24-11-2021', 'dd-mm-yyyy'), null, '063528944', '555047971', 959);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-07-2007', 'dd-mm-yyyy'), to_date('01-02-2018', 'dd-mm-yyyy'), null, '322295223', '140829165', 593);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-05-2009', 'dd-mm-yyyy'), to_date('03-02-2018', 'dd-mm-yyyy'), null, '659562823', '559859523', 281);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-02-2021', 'dd-mm-yyyy'), to_date('07-10-2023', 'dd-mm-yyyy'), null, '093818015', '347276119', 471);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-06-2010', 'dd-mm-yyyy'), to_date('08-07-2010', 'dd-mm-yyyy'), null, '141166296', '578516249', 286);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-11-2008', 'dd-mm-yyyy'), to_date('06-12-2023', 'dd-mm-yyyy'), null, '740708570', '602220915', 278);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-10-2021', 'dd-mm-yyyy'), to_date('13-11-2021', 'dd-mm-yyyy'), null, '107455196', '485283160', 981);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-09-2021', 'dd-mm-yyyy'), to_date('23-09-2021', 'dd-mm-yyyy'), null, '614784421', '614782689', 213);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-08-2022', 'dd-mm-yyyy'), to_date('26-08-2022', 'dd-mm-yyyy'), null, '043939492', '920761389', 187);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-03-2010', 'dd-mm-yyyy'), to_date('09-06-2021', 'dd-mm-yyyy'), null, '418542865', '155248136', 87);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-01-2021', 'dd-mm-yyyy'), to_date('01-02-2021', 'dd-mm-yyyy'), null, '677905366', '390905524', 46);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-06-2003', 'dd-mm-yyyy'), to_date('26-12-2023', 'dd-mm-yyyy'), null, '045601319', '393777727', 823);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-03-2007', 'dd-mm-yyyy'), to_date('28-08-2015', 'dd-mm-yyyy'), null, '214335504', '077055177', 377);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-03-2009', 'dd-mm-yyyy'), to_date('09-04-2024', 'dd-mm-yyyy'), null, '175978110', '711309756', 366);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-05-2008', 'dd-mm-yyyy'), to_date('02-03-2016', 'dd-mm-yyyy'), null, '137842810', '245422235', 825);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-01-2011', 'dd-mm-yyyy'), to_date('12-09-2016', 'dd-mm-yyyy'), null, '061215635', '180966239', 356);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-12-2001', 'dd-mm-yyyy'), to_date('06-02-2011', 'dd-mm-yyyy'), null, '418350339', '485283160', 569);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-01-2019', 'dd-mm-yyyy'), to_date('08-12-2023', 'dd-mm-yyyy'), null, '107093007', '370469772', 141);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-12-2009', 'dd-mm-yyyy'), to_date('13-02-2019', 'dd-mm-yyyy'), null, '488229246', '826605920', 506);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-05-2001', 'dd-mm-yyyy'), to_date('23-11-2017', 'dd-mm-yyyy'), null, '022601726', '729801502', 469);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-02-2020', 'dd-mm-yyyy'), to_date('13-03-2020', 'dd-mm-yyyy'), null, '826540393', '682262028', 946);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-10-2011', 'dd-mm-yyyy'), to_date('07-03-2016', 'dd-mm-yyyy'), null, '039153067', '168438555', 417);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-11-2020', 'dd-mm-yyyy'), to_date('29-11-2020', 'dd-mm-yyyy'), null, '305084973', '984268974', 234);
 commit;
 prompt 200 records committed...
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (200, to_date('10-08-2000', 'dd-mm-yyyy'), to_date('12-01-2017', 'dd-mm-yyyy'), null, '487301584', '652120441', 525);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (201, to_date('02-09-2012', 'dd-mm-yyyy'), to_date('15-08-2020', 'dd-mm-yyyy'), null, '145366143', '257532494', 89);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (202, to_date('04-11-2021', 'dd-mm-yyyy'), to_date('18-11-2021', 'dd-mm-yyyy'), null, '697846160', '645106048', 975);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (203, to_date('08-03-2019', 'dd-mm-yyyy'), to_date('22-03-2019', 'dd-mm-yyyy'), null, '186328775', '837162122', 853);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (204, to_date('17-03-2018', 'dd-mm-yyyy'), to_date('31-03-2018', 'dd-mm-yyyy'), null, '957911531', '275681892', 299);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (205, to_date('09-08-2006', 'dd-mm-yyyy'), to_date('14-01-2011', 'dd-mm-yyyy'), null, '126770208', '186164668', 147);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (206, to_date('03-12-2012', 'dd-mm-yyyy'), to_date('11-10-2022', 'dd-mm-yyyy'), null, '917208879', '029124580', 750);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (207, to_date('22-12-2004', 'dd-mm-yyyy'), to_date('27-04-2012', 'dd-mm-yyyy'), null, '697531067', '272137266', 906);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (208, to_date('13-10-2013', 'dd-mm-yyyy'), to_date('12-05-2023', 'dd-mm-yyyy'), null, '353506388', '127352453', 537);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (209, to_date('14-01-2016', 'dd-mm-yyyy'), to_date('28-01-2016', 'dd-mm-yyyy'), null, '418542865', '191792029', 189);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (210, to_date('27-11-2021', 'dd-mm-yyyy'), to_date('11-12-2021', 'dd-mm-yyyy'), null, '029466664', '120287546', 59);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (211, to_date('27-02-2010', 'dd-mm-yyyy'), to_date('20-06-2013', 'dd-mm-yyyy'), null, '723375847', '078881161', 808);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (212, to_date('21-03-2022', 'dd-mm-yyyy'), to_date('04-04-2022', 'dd-mm-yyyy'), null, '680606541', '177902350', 770);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (213, to_date('10-11-2020', 'dd-mm-yyyy'), to_date('24-11-2020', 'dd-mm-yyyy'), null, '874752399', '951365336', 114);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (214, to_date('13-05-2009', 'dd-mm-yyyy'), to_date('27-10-2011', 'dd-mm-yyyy'), null, '149245218', '119362966', 553);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (215, to_date('28-04-2006', 'dd-mm-yyyy'), to_date('12-10-2017', 'dd-mm-yyyy'), null, '045601319', '560046205', 47);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (216, to_date('11-09-2004', 'dd-mm-yyyy'), to_date('17-09-2019', 'dd-mm-yyyy'), null, '093818015', '257532494', 762);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (217, to_date('18-05-2016', 'dd-mm-yyyy'), to_date('27-11-2023', 'dd-mm-yyyy'), null, '563934878', '448707100', 748);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (218, to_date('05-02-2008', 'dd-mm-yyyy'), to_date('07-08-2016', 'dd-mm-yyyy'), null, '322854435', '143520341', 978);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (219, to_date('26-11-2002', 'dd-mm-yyyy'), to_date('02-05-2016', 'dd-mm-yyyy'), null, '145366143', '424102835', 495);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (220, to_date('23-06-2013', 'dd-mm-yyyy'), to_date('03-07-2020', 'dd-mm-yyyy'), null, '765668671', '780840485', 235);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (221, to_date('13-12-2009', 'dd-mm-yyyy'), to_date('21-12-2011', 'dd-mm-yyyy'), null, '682014481', '986715923', 993);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (222, to_date('13-01-2011', 'dd-mm-yyyy'), to_date('27-01-2011', 'dd-mm-yyyy'), null, '989981369', '798274104', 857);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (223, to_date('31-03-2011', 'dd-mm-yyyy'), to_date('11-02-2018', 'dd-mm-yyyy'), null, '310404144', '219278525', 50);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (224, to_date('20-08-2013', 'dd-mm-yyyy'), to_date('19-08-2023', 'dd-mm-yyyy'), null, '086072867', '017131401', 267);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (225, to_date('27-04-2023', 'dd-mm-yyyy'), to_date('11-05-2023', 'dd-mm-yyyy'), null, '374339845', '461518573', 602);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (226, to_date('24-03-2021', 'dd-mm-yyyy'), to_date('07-04-2021', 'dd-mm-yyyy'), null, '097482024', '066163526', 571);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (227, to_date('12-05-2011', 'dd-mm-yyyy'), to_date('30-04-2017', 'dd-mm-yyyy'), null, '647332571', '266091930', 702);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (228, to_date('21-07-2022', 'dd-mm-yyyy'), to_date('04-08-2022', 'dd-mm-yyyy'), null, '162991219', '488229246', 113);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (229, to_date('12-02-2010', 'dd-mm-yyyy'), to_date('02-06-2020', 'dd-mm-yyyy'), null, '417953406', '555047971', 589);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (230, to_date('22-11-2012', 'dd-mm-yyyy'), to_date('14-12-2018', 'dd-mm-yyyy'), null, '770600157', '983815148', 11);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (231, to_date('17-09-2023', 'dd-mm-yyyy'), to_date('14-07-2024', 'dd-mm-yyyy'), null, '898194084', '309732749', 587);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (232, to_date('01-02-2015', 'dd-mm-yyyy'), to_date('15-02-2015', 'dd-mm-yyyy'), null, '107093007', '348351561', 530);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (233, to_date('22-02-2006', 'dd-mm-yyyy'), to_date('22-01-2017', 'dd-mm-yyyy'), null, '441162660', '028369330', 401);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (234, to_date('01-01-2016', 'dd-mm-yyyy'), to_date('15-01-2016', 'dd-mm-yyyy'), null, '031510193', '054248733', 14);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (235, to_date('26-06-2018', 'dd-mm-yyyy'), to_date('10-07-2018', 'dd-mm-yyyy'), null, '311690756', '624567221', 637);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (236, to_date('02-05-2023', 'dd-mm-yyyy'), to_date('16-05-2023', 'dd-mm-yyyy'), null, '446332100', '659345030', 603);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (237, to_date('07-09-2019', 'dd-mm-yyyy'), to_date('21-09-2019', 'dd-mm-yyyy'), null, '751666263', '799881575', 726);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (238, to_date('02-03-2008', 'dd-mm-yyyy'), to_date('29-11-2022', 'dd-mm-yyyy'), null, '045601319', '230944652', 249);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (239, to_date('12-01-2007', 'dd-mm-yyyy'), to_date('08-02-2017', 'dd-mm-yyyy'), null, '094482935', '758867042', 156);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (240, to_date('31-12-2016', 'dd-mm-yyyy'), to_date('20-01-2024', 'dd-mm-yyyy'), null, '805127954', '093818015', 34);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (241, to_date('16-10-2009', 'dd-mm-yyyy'), to_date('19-04-2010', 'dd-mm-yyyy'), null, '066613546', '545327628', 98);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (242, to_date('24-11-2005', 'dd-mm-yyyy'), to_date('24-04-2015', 'dd-mm-yyyy'), null, '260510850', '675987499', 894);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (243, to_date('28-01-2023', 'dd-mm-yyyy'), to_date('11-02-2023', 'dd-mm-yyyy'), null, '696182052', '216475555', 996);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (244, to_date('18-03-2004', 'dd-mm-yyyy'), to_date('04-07-2018', 'dd-mm-yyyy'), null, '195785327', '055509419', 334);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (245, to_date('02-01-2001', 'dd-mm-yyyy'), to_date('16-04-2021', 'dd-mm-yyyy'), null, '653774196', '327375753', 128);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (246, to_date('07-04-2020', 'dd-mm-yyyy'), to_date('09-12-2021', 'dd-mm-yyyy'), null, '664042086', '660975076', 988);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (247, to_date('27-12-2008', 'dd-mm-yyyy'), to_date('15-09-2023', 'dd-mm-yyyy'), null, '555012645', '555012645', 119);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (248, to_date('15-09-2013', 'dd-mm-yyyy'), to_date('29-09-2013', 'dd-mm-yyyy'), null, '511449615', '914751680', 67);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (249, to_date('30-05-2016', 'dd-mm-yyyy'), to_date('13-06-2016', 'dd-mm-yyyy'), null, '185553927', '747387759', 938);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (250, to_date('05-11-2008', 'dd-mm-yyyy'), to_date('06-01-2012', 'dd-mm-yyyy'), null, '696456011', '500068415', 318);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (251, to_date('20-09-2015', 'dd-mm-yyyy'), to_date('04-10-2015', 'dd-mm-yyyy'), null, '420027444', '175375438', 910);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (252, to_date('25-07-2013', 'dd-mm-yyyy'), to_date('14-01-2019', 'dd-mm-yyyy'), null, '843169084', '113036851', 212);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (253, to_date('23-03-2023', 'dd-mm-yyyy'), to_date('06-04-2023', 'dd-mm-yyyy'), null, '448707100', '866701211', 833);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (254, to_date('08-11-2000', 'dd-mm-yyyy'), to_date('21-01-2012', 'dd-mm-yyyy'), null, '136473730', '448707100', 72);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (255, to_date('15-01-2000', 'dd-mm-yyyy'), to_date('21-07-2024', 'dd-mm-yyyy'), null, '898194084', '461518573', 954);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (256, to_date('31-03-2003', 'dd-mm-yyyy'), to_date('08-01-2016', 'dd-mm-yyyy'), null, '749084891', '942977640', 636);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (257, to_date('08-06-2015', 'dd-mm-yyyy'), to_date('14-06-2019', 'dd-mm-yyyy'), null, '680540698', '701862029', 831);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (258, to_date('01-08-2002', 'dd-mm-yyyy'), to_date('13-08-2023', 'dd-mm-yyyy'), null, '803660894', '232611240', 590);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (259, to_date('29-01-2016', 'dd-mm-yyyy'), to_date('12-02-2016', 'dd-mm-yyyy'), null, '577720618', '697531067', 794);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (260, to_date('31-08-2012', 'dd-mm-yyyy'), to_date('01-10-2019', 'dd-mm-yyyy'), null, '329948220', '920761389', 595);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (261, to_date('03-10-2006', 'dd-mm-yyyy'), to_date('24-12-2011', 'dd-mm-yyyy'), null, '488229246', '220633642', 586);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (262, to_date('20-06-2008', 'dd-mm-yyyy'), to_date('03-12-2010', 'dd-mm-yyyy'), null, '107455196', '301487527', 82);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (263, to_date('13-02-2001', 'dd-mm-yyyy'), to_date('09-05-2023', 'dd-mm-yyyy'), null, '214713146', '259058467', 935);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (264, to_date('25-09-2012', 'dd-mm-yyyy'), to_date('09-10-2015', 'dd-mm-yyyy'), null, '669562483', '188258885', 248);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (265, to_date('25-05-2017', 'dd-mm-yyyy'), to_date('05-08-2018', 'dd-mm-yyyy'), null, '887892305', '259058467', 889);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (266, to_date('04-02-2004', 'dd-mm-yyyy'), to_date('07-03-2015', 'dd-mm-yyyy'), null, '311514630', '798274104', 435);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (267, to_date('21-04-2014', 'dd-mm-yyyy'), to_date('05-05-2014', 'dd-mm-yyyy'), null, '050573245', '216475555', 733);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (268, to_date('25-10-2022', 'dd-mm-yyyy'), to_date('08-11-2022', 'dd-mm-yyyy'), null, '847250676', '664089285', 620);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (269, to_date('27-10-2005', 'dd-mm-yyyy'), to_date('25-02-2019', 'dd-mm-yyyy'), null, '418350339', '528625739', 878);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (270, to_date('11-12-2016', 'dd-mm-yyyy'), to_date('25-12-2016', 'dd-mm-yyyy'), null, '847250676', '483206140', 696);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (271, to_date('21-01-2020', 'dd-mm-yyyy'), to_date('04-02-2020', 'dd-mm-yyyy'), null, '163506853', '157451231', 18);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (272, to_date('21-04-2023', 'dd-mm-yyyy'), to_date('05-05-2023', 'dd-mm-yyyy'), null, '334283784', '968200663', 135);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (273, to_date('30-04-2008', 'dd-mm-yyyy'), to_date('02-12-2012', 'dd-mm-yyyy'), null, '918067269', '014082919', 949);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (274, to_date('01-10-2023', 'dd-mm-yyyy'), to_date('15-10-2023', 'dd-mm-yyyy'), null, '803660894', '241206486', 169);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (275, to_date('16-01-2001', 'dd-mm-yyyy'), to_date('27-05-2023', 'dd-mm-yyyy'), null, '413075709', '398373857', 705);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (276, to_date('27-08-2007', 'dd-mm-yyyy'), to_date('24-12-2019', 'dd-mm-yyyy'), null, '334283784', '240939313', 327);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (277, to_date('10-11-2012', 'dd-mm-yyyy'), to_date('24-11-2012', 'dd-mm-yyyy'), null, '271730213', '185553927', 330);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (278, to_date('25-07-2015', 'dd-mm-yyyy'), to_date('21-07-2024', 'dd-mm-yyyy'), null, '898194084', '367775460', 447);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (279, to_date('05-03-2010', 'dd-mm-yyyy'), to_date('26-02-2011', 'dd-mm-yyyy'), null, '086072867', '185553927', 96);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (280, to_date('01-02-2008', 'dd-mm-yyyy'), to_date('24-10-2022', 'dd-mm-yyyy'), null, '085170682', '847250676', 320);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (281, to_date('09-02-2006', 'dd-mm-yyyy'), to_date('01-04-2023', 'dd-mm-yyyy'), null, '070289159', '274453753', 360);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (282, to_date('23-06-2001', 'dd-mm-yyyy'), to_date('25-08-2017', 'dd-mm-yyyy'), null, '680606541', '701389269', 88);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (283, to_date('20-10-2001', 'dd-mm-yyyy'), to_date('23-09-2020', 'dd-mm-yyyy'), null, '555012645', '886474743', 203);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (284, to_date('28-06-2012', 'dd-mm-yyyy'), to_date('01-12-2023', 'dd-mm-yyyy'), null, '087859207', '309732749', 371);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (285, to_date('05-04-2010', 'dd-mm-yyyy'), to_date('23-05-2015', 'dd-mm-yyyy'), null, '801792400', '984268974', 722);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (286, to_date('13-12-2000', 'dd-mm-yyyy'), to_date('21-05-2015', 'dd-mm-yyyy'), null, '989981369', '697846160', 146);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (287, to_date('09-06-2015', 'dd-mm-yyyy'), to_date('16-01-2020', 'dd-mm-yyyy'), null, '751666263', '531109735', 454);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (288, to_date('25-09-2015', 'dd-mm-yyyy'), to_date('09-10-2015', 'dd-mm-yyyy'), null, '136074808', '553241085', 936);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (289, to_date('24-04-2019', 'dd-mm-yyyy'), to_date('20-01-2023', 'dd-mm-yyyy'), null, '085170682', '789947168', 490);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (290, to_date('23-04-2011', 'dd-mm-yyyy'), to_date('15-01-2017', 'dd-mm-yyyy'), null, '304620961', '279593900', 584);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (291, to_date('19-04-2020', 'dd-mm-yyyy'), to_date('03-05-2020', 'dd-mm-yyyy'), null, '972588444', '257490434', 442);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (292, to_date('20-09-2013', 'dd-mm-yyyy'), to_date('03-11-2022', 'dd-mm-yyyy'), null, '507745420', '044973672', 58);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (293, to_date('14-06-2010', 'dd-mm-yyyy'), to_date('27-05-2015', 'dd-mm-yyyy'), null, '264847178', '490830032', 172);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (294, to_date('21-10-2008', 'dd-mm-yyyy'), to_date('01-05-2015', 'dd-mm-yyyy'), null, '811048828', '367775460', 76);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (295, to_date('11-07-2021', 'dd-mm-yyyy'), to_date('25-07-2021', 'dd-mm-yyyy'), null, '432425942', '127352453', 498);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (296, to_date('21-02-2009', 'dd-mm-yyyy'), to_date('19-10-2012', 'dd-mm-yyyy'), null, '244652438', '972588444', 886);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (297, to_date('06-12-2021', 'dd-mm-yyyy'), to_date('20-12-2021', 'dd-mm-yyyy'), null, '901820276', '746109991', 193);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (298, to_date('23-02-2023', 'dd-mm-yyyy'), to_date('09-03-2023', 'dd-mm-yyyy'), null, '574465011', '631569671', 761);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (299, to_date('11-10-2023', 'dd-mm-yyyy'), to_date('25-10-2023', 'dd-mm-yyyy'), null, '310404144', '268281389', 962);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-08-2000', 'dd-mm-yyyy'), to_date('12-01-2017', 'dd-mm-yyyy'), null, '487301584', '652120441', 525);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-09-2012', 'dd-mm-yyyy'), to_date('15-08-2020', 'dd-mm-yyyy'), null, '145366143', '257532494', 89);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-11-2021', 'dd-mm-yyyy'), to_date('18-11-2021', 'dd-mm-yyyy'), null, '697846160', '645106048', 975);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-03-2019', 'dd-mm-yyyy'), to_date('22-03-2019', 'dd-mm-yyyy'), null, '186328775', '837162122', 853);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-03-2018', 'dd-mm-yyyy'), to_date('31-03-2018', 'dd-mm-yyyy'), null, '957911531', '275681892', 299);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-08-2006', 'dd-mm-yyyy'), to_date('14-01-2011', 'dd-mm-yyyy'), null, '126770208', '186164668', 147);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-12-2012', 'dd-mm-yyyy'), to_date('11-10-2022', 'dd-mm-yyyy'), null, '917208879', '029124580', 750);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-12-2004', 'dd-mm-yyyy'), to_date('27-04-2012', 'dd-mm-yyyy'), null, '697531067', '272137266', 906);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-10-2013', 'dd-mm-yyyy'), to_date('12-05-2023', 'dd-mm-yyyy'), null, '353506388', '127352453', 537);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-01-2016', 'dd-mm-yyyy'), to_date('28-01-2016', 'dd-mm-yyyy'), null, '418542865', '191792029', 189);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-11-2021', 'dd-mm-yyyy'), to_date('11-12-2021', 'dd-mm-yyyy'), null, '029466664', '120287546', 59);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-02-2010', 'dd-mm-yyyy'), to_date('20-06-2013', 'dd-mm-yyyy'), null, '723375847', '078881161', 808);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-03-2022', 'dd-mm-yyyy'), to_date('04-04-2022', 'dd-mm-yyyy'), null, '680606541', '177902350', 770);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-11-2020', 'dd-mm-yyyy'), to_date('24-11-2020', 'dd-mm-yyyy'), null, '874752399', '951365336', 114);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-05-2009', 'dd-mm-yyyy'), to_date('27-10-2011', 'dd-mm-yyyy'), null, '149245218', '119362966', 553);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-04-2006', 'dd-mm-yyyy'), to_date('12-10-2017', 'dd-mm-yyyy'), null, '045601319', '560046205', 47);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-09-2004', 'dd-mm-yyyy'), to_date('17-09-2019', 'dd-mm-yyyy'), null, '093818015', '257532494', 762);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-05-2016', 'dd-mm-yyyy'), to_date('27-11-2023', 'dd-mm-yyyy'), null, '563934878', '448707100', 748);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-02-2008', 'dd-mm-yyyy'), to_date('07-08-2016', 'dd-mm-yyyy'), null, '322854435', '143520341', 978);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-11-2002', 'dd-mm-yyyy'), to_date('02-05-2016', 'dd-mm-yyyy'), null, '145366143', '424102835', 495);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-06-2013', 'dd-mm-yyyy'), to_date('03-07-2020', 'dd-mm-yyyy'), null, '765668671', '780840485', 235);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-12-2009', 'dd-mm-yyyy'), to_date('21-12-2011', 'dd-mm-yyyy'), null, '682014481', '986715923', 993);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-01-2011', 'dd-mm-yyyy'), to_date('27-01-2011', 'dd-mm-yyyy'), null, '989981369', '798274104', 857);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-03-2011', 'dd-mm-yyyy'), to_date('11-02-2018', 'dd-mm-yyyy'), null, '310404144', '219278525', 50);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-08-2013', 'dd-mm-yyyy'), to_date('19-08-2023', 'dd-mm-yyyy'), null, '086072867', '017131401', 267);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-04-2023', 'dd-mm-yyyy'), to_date('11-05-2023', 'dd-mm-yyyy'), null, '374339845', '461518573', 602);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-03-2021', 'dd-mm-yyyy'), to_date('07-04-2021', 'dd-mm-yyyy'), null, '097482024', '066163526', 571);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-05-2011', 'dd-mm-yyyy'), to_date('30-04-2017', 'dd-mm-yyyy'), null, '647332571', '266091930', 702);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-07-2022', 'dd-mm-yyyy'), to_date('04-08-2022', 'dd-mm-yyyy'), null, '162991219', '488229246', 113);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-02-2010', 'dd-mm-yyyy'), to_date('02-06-2020', 'dd-mm-yyyy'), null, '417953406', '555047971', 589);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-11-2012', 'dd-mm-yyyy'), to_date('14-12-2018', 'dd-mm-yyyy'), null, '770600157', '983815148', 11);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-09-2023', 'dd-mm-yyyy'), to_date('14-07-2024', 'dd-mm-yyyy'), null, '898194084', '309732749', 587);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-02-2015', 'dd-mm-yyyy'), to_date('15-02-2015', 'dd-mm-yyyy'), null, '107093007', '348351561', 530);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-02-2006', 'dd-mm-yyyy'), to_date('22-01-2017', 'dd-mm-yyyy'), null, '441162660', '028369330', 401);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-01-2016', 'dd-mm-yyyy'), to_date('15-01-2016', 'dd-mm-yyyy'), null, '031510193', '054248733', 14);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-06-2018', 'dd-mm-yyyy'), to_date('10-07-2018', 'dd-mm-yyyy'), null, '311690756', '624567221', 637);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-05-2023', 'dd-mm-yyyy'), to_date('16-05-2023', 'dd-mm-yyyy'), null, '446332100', '659345030', 603);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-09-2019', 'dd-mm-yyyy'), to_date('21-09-2019', 'dd-mm-yyyy'), null, '751666263', '799881575', 726);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-03-2008', 'dd-mm-yyyy'), to_date('29-11-2022', 'dd-mm-yyyy'), null, '045601319', '230944652', 249);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-01-2007', 'dd-mm-yyyy'), to_date('08-02-2017', 'dd-mm-yyyy'), null, '094482935', '758867042', 156);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-12-2016', 'dd-mm-yyyy'), to_date('20-01-2024', 'dd-mm-yyyy'), null, '805127954', '093818015', 34);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-10-2009', 'dd-mm-yyyy'), to_date('19-04-2010', 'dd-mm-yyyy'), null, '066613546', '545327628', 98);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-11-2005', 'dd-mm-yyyy'), to_date('24-04-2015', 'dd-mm-yyyy'), null, '260510850', '675987499', 894);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-01-2023', 'dd-mm-yyyy'), to_date('11-02-2023', 'dd-mm-yyyy'), null, '696182052', '216475555', 996);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-03-2004', 'dd-mm-yyyy'), to_date('04-07-2018', 'dd-mm-yyyy'), null, '195785327', '055509419', 334);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('02-01-2001', 'dd-mm-yyyy'), to_date('16-04-2021', 'dd-mm-yyyy'), null, '653774196', '327375753', 128);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-04-2020', 'dd-mm-yyyy'), to_date('09-12-2021', 'dd-mm-yyyy'), null, '664042086', '660975076', 988);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-12-2008', 'dd-mm-yyyy'), to_date('15-09-2023', 'dd-mm-yyyy'), null, '555012645', '555012645', 119);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-09-2013', 'dd-mm-yyyy'), to_date('29-09-2013', 'dd-mm-yyyy'), null, '511449615', '914751680', 67);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-05-2016', 'dd-mm-yyyy'), to_date('13-06-2016', 'dd-mm-yyyy'), null, '185553927', '747387759', 938);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-11-2008', 'dd-mm-yyyy'), to_date('06-01-2012', 'dd-mm-yyyy'), null, '696456011', '500068415', 318);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-09-2015', 'dd-mm-yyyy'), to_date('04-10-2015', 'dd-mm-yyyy'), null, '420027444', '175375438', 910);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-07-2013', 'dd-mm-yyyy'), to_date('14-01-2019', 'dd-mm-yyyy'), null, '843169084', '113036851', 212);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-03-2023', 'dd-mm-yyyy'), to_date('06-04-2023', 'dd-mm-yyyy'), null, '448707100', '866701211', 833);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-11-2000', 'dd-mm-yyyy'), to_date('21-01-2012', 'dd-mm-yyyy'), null, '136473730', '448707100', 72);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-01-2000', 'dd-mm-yyyy'), to_date('21-07-2024', 'dd-mm-yyyy'), null, '898194084', '461518573', 954);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-03-2003', 'dd-mm-yyyy'), to_date('08-01-2016', 'dd-mm-yyyy'), null, '749084891', '942977640', 636);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-06-2015', 'dd-mm-yyyy'), to_date('14-06-2019', 'dd-mm-yyyy'), null, '680540698', '701862029', 831);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-08-2002', 'dd-mm-yyyy'), to_date('13-08-2023', 'dd-mm-yyyy'), null, '803660894', '232611240', 590);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-01-2016', 'dd-mm-yyyy'), to_date('12-02-2016', 'dd-mm-yyyy'), null, '577720618', '697531067', 794);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-08-2012', 'dd-mm-yyyy'), to_date('01-10-2019', 'dd-mm-yyyy'), null, '329948220', '920761389', 595);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-10-2006', 'dd-mm-yyyy'), to_date('24-12-2011', 'dd-mm-yyyy'), null, '488229246', '220633642', 586);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-06-2008', 'dd-mm-yyyy'), to_date('03-12-2010', 'dd-mm-yyyy'), null, '107455196', '301487527', 82);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-02-2001', 'dd-mm-yyyy'), to_date('09-05-2023', 'dd-mm-yyyy'), null, '214713146', '259058467', 935);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-09-2012', 'dd-mm-yyyy'), to_date('09-10-2015', 'dd-mm-yyyy'), null, '669562483', '188258885', 248);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-05-2017', 'dd-mm-yyyy'), to_date('05-08-2018', 'dd-mm-yyyy'), null, '887892305', '259058467', 889);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-02-2004', 'dd-mm-yyyy'), to_date('07-03-2015', 'dd-mm-yyyy'), null, '311514630', '798274104', 435);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-04-2014', 'dd-mm-yyyy'), to_date('05-05-2014', 'dd-mm-yyyy'), null, '050573245', '216475555', 733);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-10-2022', 'dd-mm-yyyy'), to_date('08-11-2022', 'dd-mm-yyyy'), null, '847250676', '664089285', 620);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-10-2005', 'dd-mm-yyyy'), to_date('25-02-2019', 'dd-mm-yyyy'), null, '418350339', '528625739', 878);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-12-2016', 'dd-mm-yyyy'), to_date('25-12-2016', 'dd-mm-yyyy'), null, '847250676', '483206140', 696);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-01-2020', 'dd-mm-yyyy'), to_date('04-02-2020', 'dd-mm-yyyy'), null, '163506853', '157451231', 18);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-04-2023', 'dd-mm-yyyy'), to_date('05-05-2023', 'dd-mm-yyyy'), null, '334283784', '968200663', 135);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-04-2008', 'dd-mm-yyyy'), to_date('02-12-2012', 'dd-mm-yyyy'), null, '918067269', '014082919', 949);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-10-2023', 'dd-mm-yyyy'), to_date('15-10-2023', 'dd-mm-yyyy'), null, '803660894', '241206486', 169);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-01-2001', 'dd-mm-yyyy'), to_date('27-05-2023', 'dd-mm-yyyy'), null, '413075709', '398373857', 705);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-08-2007', 'dd-mm-yyyy'), to_date('24-12-2019', 'dd-mm-yyyy'), null, '334283784', '240939313', 327);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-11-2012', 'dd-mm-yyyy'), to_date('24-11-2012', 'dd-mm-yyyy'), null, '271730213', '185553927', 330);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-07-2015', 'dd-mm-yyyy'), to_date('21-07-2024', 'dd-mm-yyyy'), null, '898194084', '367775460', 447);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-03-2010', 'dd-mm-yyyy'), to_date('26-02-2011', 'dd-mm-yyyy'), null, '086072867', '185553927', 96);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-02-2008', 'dd-mm-yyyy'), to_date('24-10-2022', 'dd-mm-yyyy'), null, '085170682', '847250676', 320);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-02-2006', 'dd-mm-yyyy'), to_date('01-04-2023', 'dd-mm-yyyy'), null, '070289159', '274453753', 360);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-06-2001', 'dd-mm-yyyy'), to_date('25-08-2017', 'dd-mm-yyyy'), null, '680606541', '701389269', 88);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-10-2001', 'dd-mm-yyyy'), to_date('23-09-2020', 'dd-mm-yyyy'), null, '555012645', '886474743', 203);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-06-2012', 'dd-mm-yyyy'), to_date('01-12-2023', 'dd-mm-yyyy'), null, '087859207', '309732749', 371);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-04-2010', 'dd-mm-yyyy'), to_date('23-05-2015', 'dd-mm-yyyy'), null, '801792400', '984268974', 722);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-12-2000', 'dd-mm-yyyy'), to_date('21-05-2015', 'dd-mm-yyyy'), null, '989981369', '697846160', 146);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-06-2015', 'dd-mm-yyyy'), to_date('16-01-2020', 'dd-mm-yyyy'), null, '751666263', '531109735', 454);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-09-2015', 'dd-mm-yyyy'), to_date('09-10-2015', 'dd-mm-yyyy'), null, '136074808', '553241085', 936);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-04-2019', 'dd-mm-yyyy'), to_date('20-01-2023', 'dd-mm-yyyy'), null, '085170682', '789947168', 490);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-04-2011', 'dd-mm-yyyy'), to_date('15-01-2017', 'dd-mm-yyyy'), null, '304620961', '279593900', 584);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-04-2020', 'dd-mm-yyyy'), to_date('03-05-2020', 'dd-mm-yyyy'), null, '972588444', '257490434', 442);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-09-2013', 'dd-mm-yyyy'), to_date('03-11-2022', 'dd-mm-yyyy'), null, '507745420', '044973672', 58);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-06-2010', 'dd-mm-yyyy'), to_date('27-05-2015', 'dd-mm-yyyy'), null, '264847178', '490830032', 172);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-10-2008', 'dd-mm-yyyy'), to_date('01-05-2015', 'dd-mm-yyyy'), null, '811048828', '367775460', 76);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-07-2021', 'dd-mm-yyyy'), to_date('25-07-2021', 'dd-mm-yyyy'), null, '432425942', '127352453', 498);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-02-2009', 'dd-mm-yyyy'), to_date('19-10-2012', 'dd-mm-yyyy'), null, '244652438', '972588444', 886);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-12-2021', 'dd-mm-yyyy'), to_date('20-12-2021', 'dd-mm-yyyy'), null, '901820276', '746109991', 193);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-02-2023', 'dd-mm-yyyy'), to_date('09-03-2023', 'dd-mm-yyyy'), null, '574465011', '631569671', 761);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-10-2023', 'dd-mm-yyyy'), to_date('25-10-2023', 'dd-mm-yyyy'), null, '310404144', '268281389', 962);
 commit;
 prompt 300 records committed...
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (300, to_date('05-10-2019', 'dd-mm-yyyy'), to_date('19-10-2019', 'dd-mm-yyyy'), null, '413075709', '281102853', 399);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (301, to_date('14-03-2014', 'dd-mm-yyyy'), to_date('28-03-2014', 'dd-mm-yyyy'), null, '915701674', '684705736', 691);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (302, to_date('24-04-2021', 'dd-mm-yyyy'), to_date('08-05-2021', 'dd-mm-yyyy'), null, '735902946', '053166731', 911);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (303, to_date('21-04-2007', 'dd-mm-yyyy'), to_date('08-11-2016', 'dd-mm-yyyy'), null, '812794163', '001852633', 901);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (304, to_date('29-12-2004', 'dd-mm-yyyy'), to_date('18-02-2013', 'dd-mm-yyyy'), null, '093818015', '081383228', 711);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (305, to_date('28-09-2016', 'dd-mm-yyyy'), to_date('08-10-2016', 'dd-mm-yyyy'), null, '723375847', '701389269', 445);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (306, to_date('29-01-2003', 'dd-mm-yyyy'), to_date('12-01-2010', 'dd-mm-yyyy'), null, '350227847', '653774196', 307);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (307, to_date('23-05-2006', 'dd-mm-yyyy'), to_date('17-07-2016', 'dd-mm-yyyy'), null, '666467223', '781417795', 904);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (308, to_date('27-12-2022', 'dd-mm-yyyy'), to_date('10-01-2023', 'dd-mm-yyyy'), null, '453202055', '691006719', 852);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (309, to_date('25-04-2010', 'dd-mm-yyyy'), to_date('15-12-2015', 'dd-mm-yyyy'), null, '783055575', '485100893', 450);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (310, to_date('06-11-2011', 'dd-mm-yyyy'), to_date('04-03-2019', 'dd-mm-yyyy'), null, '329948220', '660975076', 695);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (311, to_date('08-06-2010', 'dd-mm-yyyy'), to_date('26-06-2022', 'dd-mm-yyyy'), null, '113036851', '164868085', 476);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (312, to_date('06-02-2008', 'dd-mm-yyyy'), to_date('23-01-2017', 'dd-mm-yyyy'), null, '379348654', '798632254', 31);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (313, to_date('11-09-2016', 'dd-mm-yyyy'), to_date('05-12-2016', 'dd-mm-yyyy'), null, '684705736', '909087863', 751);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (314, to_date('06-12-2020', 'dd-mm-yyyy'), to_date('20-12-2020', 'dd-mm-yyyy'), null, '614784421', '622978701', 345);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (315, to_date('19-10-2020', 'dd-mm-yyyy'), to_date('02-11-2020', 'dd-mm-yyyy'), null, '350227847', '279593900', 845);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (316, to_date('14-01-2022', 'dd-mm-yyyy'), to_date('28-01-2022', 'dd-mm-yyyy'), null, '498584448', '232611240', 645);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (317, to_date('15-10-2012', 'dd-mm-yyyy'), to_date('29-01-2014', 'dd-mm-yyyy'), null, '938313995', '011679094', 924);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (318, to_date('04-05-2022', 'dd-mm-yyyy'), to_date('18-05-2022', 'dd-mm-yyyy'), null, '350227847', '390905524', 177);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (319, to_date('13-03-2022', 'dd-mm-yyyy'), to_date('27-03-2022', 'dd-mm-yyyy'), null, '983955201', '939973048', 599);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (320, to_date('06-06-2021', 'dd-mm-yyyy'), to_date('07-10-2021', 'dd-mm-yyyy'), null, '682014481', '033035228', 873);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (321, to_date('31-05-2018', 'dd-mm-yyyy'), to_date('14-06-2018', 'dd-mm-yyyy'), null, '740708570', '951365336', 37);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (322, to_date('27-08-2017', 'dd-mm-yyyy'), to_date('19-02-2021', 'dd-mm-yyyy'), null, '077468421', '206148591', 381);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (323, to_date('19-04-2008', 'dd-mm-yyyy'), to_date('14-03-2021', 'dd-mm-yyyy'), null, '688973370', '526716833', 357);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (324, to_date('16-06-2008', 'dd-mm-yyyy'), to_date('13-10-2019', 'dd-mm-yyyy'), null, '984268974', '301487527', 494);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (325, to_date('24-05-2008', 'dd-mm-yyyy'), to_date('08-11-2021', 'dd-mm-yyyy'), null, '684705736', '025815914', 287);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (326, to_date('30-07-2015', 'dd-mm-yyyy'), to_date('13-08-2015', 'dd-mm-yyyy'), null, '128447737', '131671047', 626);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (327, to_date('08-11-2000', 'dd-mm-yyyy'), to_date('27-02-2014', 'dd-mm-yyyy'), null, '271730213', '168438555', 539);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (328, to_date('03-07-2004', 'dd-mm-yyyy'), to_date('25-01-2020', 'dd-mm-yyyy'), null, '137607044', '574465011', 675);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (329, to_date('31-07-2020', 'dd-mm-yyyy'), to_date('14-08-2020', 'dd-mm-yyyy'), null, '888279161', '025953504', 303);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (330, to_date('24-02-2012', 'dd-mm-yyyy'), to_date('13-05-2019', 'dd-mm-yyyy'), null, '765668671', '799881575', 659);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (331, to_date('23-05-2012', 'dd-mm-yyyy'), to_date('16-12-2018', 'dd-mm-yyyy'), null, '914006622', '973642055', 699);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (332, to_date('09-05-2016', 'dd-mm-yyyy'), to_date('27-04-2020', 'dd-mm-yyyy'), null, '851304587', '949649669', 431);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (333, to_date('07-09-2003', 'dd-mm-yyyy'), to_date('31-10-2021', 'dd-mm-yyyy'), null, '322854435', '942977640', 227);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (334, to_date('08-12-2003', 'dd-mm-yyyy'), to_date('16-09-2011', 'dd-mm-yyyy'), null, '456794713', '367706464', 121);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (335, to_date('08-06-2011', 'dd-mm-yyyy'), to_date('17-05-2016', 'dd-mm-yyyy'), null, '063528944', '346411238', 727);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (336, to_date('21-10-2001', 'dd-mm-yyyy'), to_date('27-11-2018', 'dd-mm-yyyy'), null, '878919173', '348648244', 638);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (337, to_date('03-11-2001', 'dd-mm-yyyy'), to_date('15-01-2019', 'dd-mm-yyyy'), null, '922607270', '937829536', 71);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (338, to_date('13-09-2006', 'dd-mm-yyyy'), to_date('06-08-2017', 'dd-mm-yyyy'), null, '677905366', '130969218', 183);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (339, to_date('23-03-2021', 'dd-mm-yyyy'), to_date('06-04-2021', 'dd-mm-yyyy'), null, '688973370', '559859523', 386);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (340, to_date('19-12-2016', 'dd-mm-yyyy'), to_date('02-01-2017', 'dd-mm-yyyy'), null, '574465011', '072820783', 414);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (341, to_date('09-03-2023', 'dd-mm-yyyy'), to_date('23-03-2023', 'dd-mm-yyyy'), null, '066516192', '251808841', 528);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (342, to_date('13-01-2009', 'dd-mm-yyyy'), to_date('25-04-2014', 'dd-mm-yyyy'), null, '033035228', '745672175', 185);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (343, to_date('07-12-2023', 'dd-mm-yyyy'), to_date('21-12-2023', 'dd-mm-yyyy'), null, '782812737', '146137062', 138);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (344, to_date('13-01-2020', 'dd-mm-yyyy'), to_date('27-01-2020', 'dd-mm-yyyy'), null, '511449615', '720106083', 406);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (345, to_date('14-08-2020', 'dd-mm-yyyy'), to_date('11-12-2023', 'dd-mm-yyyy'), null, '523453408', '706196502', 995);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (346, to_date('22-12-2023', 'dd-mm-yyyy'), to_date('05-01-2024', 'dd-mm-yyyy'), null, '494302245', '691006719', 154);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (347, to_date('05-07-2023', 'dd-mm-yyyy'), to_date('19-07-2023', 'dd-mm-yyyy'), null, '396904603', '066163526', 647);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (348, to_date('12-09-2021', 'dd-mm-yyyy'), to_date('26-09-2021', 'dd-mm-yyyy'), null, '800071003', '252004653', 674);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (349, to_date('10-07-2000', 'dd-mm-yyyy'), to_date('03-07-2010', 'dd-mm-yyyy'), null, '322854435', '438188432', 850);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (350, to_date('20-08-2020', 'dd-mm-yyyy'), to_date('03-09-2020', 'dd-mm-yyyy'), null, '054248733', '983815148', 764);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (351, to_date('17-01-2023', 'dd-mm-yyyy'), to_date('31-01-2023', 'dd-mm-yyyy'), null, '159620386', '240939313', 685);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (352, to_date('18-08-2019', 'dd-mm-yyyy'), to_date('01-09-2019', 'dd-mm-yyyy'), null, '238684624', '706196502', 81);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (353, to_date('06-03-2016', 'dd-mm-yyyy'), to_date('20-03-2016', 'dd-mm-yyyy'), null, '063528944', '899786232', 1000);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (354, to_date('01-03-2004', 'dd-mm-yyyy'), to_date('08-12-2022', 'dd-mm-yyyy'), null, '499600585', '983815148', 555);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (355, to_date('13-02-2016', 'dd-mm-yyyy'), to_date('14-03-2016', 'dd-mm-yyyy'), null, '766598824', '191792029', 483);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (356, to_date('13-11-2007', 'dd-mm-yyyy'), to_date('01-09-2013', 'dd-mm-yyyy'), null, '188284365', '677097969', 718);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (357, to_date('26-06-2007', 'dd-mm-yyyy'), to_date('21-05-2016', 'dd-mm-yyyy'), null, '855053927', '245272383', 743);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (358, to_date('13-05-2005', 'dd-mm-yyyy'), to_date('14-01-2018', 'dd-mm-yyyy'), null, '487301584', '376926882', 75);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (359, to_date('28-06-2014', 'dd-mm-yyyy'), to_date('12-07-2014', 'dd-mm-yyyy'), null, '560046205', '141376208', 519);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (360, to_date('16-11-2015', 'dd-mm-yyyy'), to_date('28-09-2023', 'dd-mm-yyyy'), null, '498584448', '417953406', 616);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (361, to_date('21-05-2001', 'dd-mm-yyyy'), to_date('13-07-2011', 'dd-mm-yyyy'), null, '374339845', '021781827', 326);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (362, to_date('19-02-2020', 'dd-mm-yyyy'), to_date('04-03-2020', 'dd-mm-yyyy'), null, '127097395', '953469588', 251);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (363, to_date('07-08-2007', 'dd-mm-yyyy'), to_date('25-06-2015', 'dd-mm-yyyy'), to_date('07-07-2024 12:45:55', 'dd-mm-yyyy hh24:mi:ss'), '013427448', '909087863', 922);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (364, to_date('11-04-2022', 'dd-mm-yyyy'), to_date('25-04-2022', 'dd-mm-yyyy'), null, '214713146', '915372180', 615);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (365, to_date('09-08-2015', 'dd-mm-yyyy'), to_date('01-05-2024', 'dd-mm-yyyy'), null, '367985568', '638414377', 350);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (366, to_date('03-09-2009', 'dd-mm-yyyy'), to_date('20-03-2020', 'dd-mm-yyyy'), null, '751666263', '851278188', 822);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (367, to_date('14-07-2017', 'dd-mm-yyyy'), to_date('16-11-2020', 'dd-mm-yyyy'), null, '086072867', '915372180', 143);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (368, to_date('29-10-2014', 'dd-mm-yyyy'), to_date('21-12-2018', 'dd-mm-yyyy'), null, '022601726', '631487255', 449);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (369, to_date('17-05-2019', 'dd-mm-yyyy'), to_date('31-05-2019', 'dd-mm-yyyy'), null, '856216050', '280673575', 859);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (370, to_date('27-08-2007', 'dd-mm-yyyy'), to_date('12-04-2022', 'dd-mm-yyyy'), null, '454626264', '917553275', 102);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (371, to_date('21-10-2014', 'dd-mm-yyyy'), to_date('26-09-2022', 'dd-mm-yyyy'), null, '082415344', '379348654', 926);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (372, to_date('22-09-2014', 'dd-mm-yyyy'), to_date('07-08-2024', 'dd-mm-yyyy'), null, '898194084', '279175065', 407);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (373, to_date('15-12-2018', 'dd-mm-yyyy'), to_date('29-12-2018', 'dd-mm-yyyy'), null, '061215635', '628942053', 802);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (374, to_date('11-08-2022', 'dd-mm-yyyy'), to_date('25-08-2022', 'dd-mm-yyyy'), null, '725276037', '311246059', 354);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (375, to_date('17-01-2022', 'dd-mm-yyyy'), to_date('31-01-2022', 'dd-mm-yyyy'), null, '871507308', '490830032', 508);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (376, to_date('10-06-2008', 'dd-mm-yyyy'), to_date('20-02-2016', 'dd-mm-yyyy'), null, '311690756', '703815502', 784);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (377, to_date('25-08-2000', 'dd-mm-yyyy'), to_date('21-11-2010', 'dd-mm-yyyy'), null, '914006622', '319029281', 811);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (378, to_date('16-07-2005', 'dd-mm-yyyy'), to_date('31-10-2013', 'dd-mm-yyyy'), null, '334283784', '469016250', 865);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (379, to_date('16-08-2016', 'dd-mm-yyyy'), to_date('25-03-2018', 'dd-mm-yyyy'), null, '305084973', '086072867', 669);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (380, to_date('09-03-2006', 'dd-mm-yyyy'), to_date('02-03-2015', 'dd-mm-yyyy'), null, '507745420', '736410796', 163);
-insert into BOOKLENDING (lendingid, lendingdate, duedate, returndate, clientid, librarianid, copyid)
-values (381, to_date('18-04-2016', 'dd-mm-yyyy'), to_date('27-05-2022', 'dd-mm-yyyy'), null, '453202055', '251808841', 488);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-10-2019', 'dd-mm-yyyy'), to_date('19-10-2019', 'dd-mm-yyyy'), null, '413075709', '281102853', 399);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-03-2014', 'dd-mm-yyyy'), to_date('28-03-2014', 'dd-mm-yyyy'), null, '915701674', '684705736', 691);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-04-2021', 'dd-mm-yyyy'), to_date('08-05-2021', 'dd-mm-yyyy'), null, '735902946', '053166731', 911);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-04-2007', 'dd-mm-yyyy'), to_date('08-11-2016', 'dd-mm-yyyy'), null, '812794163', '001852633', 901);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-12-2004', 'dd-mm-yyyy'), to_date('18-02-2013', 'dd-mm-yyyy'), null, '093818015', '081383228', 711);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-09-2016', 'dd-mm-yyyy'), to_date('08-10-2016', 'dd-mm-yyyy'), null, '723375847', '701389269', 445);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-01-2003', 'dd-mm-yyyy'), to_date('12-01-2010', 'dd-mm-yyyy'), null, '350227847', '653774196', 307);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-05-2006', 'dd-mm-yyyy'), to_date('17-07-2016', 'dd-mm-yyyy'), null, '666467223', '781417795', 904);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-12-2022', 'dd-mm-yyyy'), to_date('10-01-2023', 'dd-mm-yyyy'), null, '453202055', '691006719', 852);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-04-2010', 'dd-mm-yyyy'), to_date('15-12-2015', 'dd-mm-yyyy'), null, '783055575', '485100893', 450);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-11-2011', 'dd-mm-yyyy'), to_date('04-03-2019', 'dd-mm-yyyy'), null, '329948220', '660975076', 695);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-06-2010', 'dd-mm-yyyy'), to_date('26-06-2022', 'dd-mm-yyyy'), null, '113036851', '164868085', 476);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-02-2008', 'dd-mm-yyyy'), to_date('23-01-2017', 'dd-mm-yyyy'), null, '379348654', '798632254', 31);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-09-2016', 'dd-mm-yyyy'), to_date('05-12-2016', 'dd-mm-yyyy'), null, '684705736', '909087863', 751);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-12-2020', 'dd-mm-yyyy'), to_date('20-12-2020', 'dd-mm-yyyy'), null, '614784421', '622978701', 345);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-10-2020', 'dd-mm-yyyy'), to_date('02-11-2020', 'dd-mm-yyyy'), null, '350227847', '279593900', 845);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-01-2022', 'dd-mm-yyyy'), to_date('28-01-2022', 'dd-mm-yyyy'), null, '498584448', '232611240', 645);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-10-2012', 'dd-mm-yyyy'), to_date('29-01-2014', 'dd-mm-yyyy'), null, '938313995', '011679094', 924);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('04-05-2022', 'dd-mm-yyyy'), to_date('18-05-2022', 'dd-mm-yyyy'), null, '350227847', '390905524', 177);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-03-2022', 'dd-mm-yyyy'), to_date('27-03-2022', 'dd-mm-yyyy'), null, '983955201', '939973048', 599);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-06-2021', 'dd-mm-yyyy'), to_date('07-10-2021', 'dd-mm-yyyy'), null, '682014481', '033035228', 873);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-05-2018', 'dd-mm-yyyy'), to_date('14-06-2018', 'dd-mm-yyyy'), null, '740708570', '951365336', 37);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-08-2017', 'dd-mm-yyyy'), to_date('19-02-2021', 'dd-mm-yyyy'), null, '077468421', '206148591', 381);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-04-2008', 'dd-mm-yyyy'), to_date('14-03-2021', 'dd-mm-yyyy'), null, '688973370', '526716833', 357);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-06-2008', 'dd-mm-yyyy'), to_date('13-10-2019', 'dd-mm-yyyy'), null, '984268974', '301487527', 494);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-05-2008', 'dd-mm-yyyy'), to_date('08-11-2021', 'dd-mm-yyyy'), null, '684705736', '025815914', 287);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('30-07-2015', 'dd-mm-yyyy'), to_date('13-08-2015', 'dd-mm-yyyy'), null, '128447737', '131671047', 626);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-11-2000', 'dd-mm-yyyy'), to_date('27-02-2014', 'dd-mm-yyyy'), null, '271730213', '168438555', 539);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-07-2004', 'dd-mm-yyyy'), to_date('25-01-2020', 'dd-mm-yyyy'), null, '137607044', '574465011', 675);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('31-07-2020', 'dd-mm-yyyy'), to_date('14-08-2020', 'dd-mm-yyyy'), null, '888279161', '025953504', 303);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('24-02-2012', 'dd-mm-yyyy'), to_date('13-05-2019', 'dd-mm-yyyy'), null, '765668671', '799881575', 659);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-05-2012', 'dd-mm-yyyy'), to_date('16-12-2018', 'dd-mm-yyyy'), null, '914006622', '973642055', 699);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-05-2016', 'dd-mm-yyyy'), to_date('27-04-2020', 'dd-mm-yyyy'), null, '851304587', '949649669', 431);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-09-2003', 'dd-mm-yyyy'), to_date('31-10-2021', 'dd-mm-yyyy'), null, '322854435', '942977640', 227);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-12-2003', 'dd-mm-yyyy'), to_date('16-09-2011', 'dd-mm-yyyy'), null, '456794713', '367706464', 121);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('08-06-2011', 'dd-mm-yyyy'), to_date('17-05-2016', 'dd-mm-yyyy'), null, '063528944', '346411238', 727);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-10-2001', 'dd-mm-yyyy'), to_date('27-11-2018', 'dd-mm-yyyy'), null, '878919173', '348648244', 638);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-11-2001', 'dd-mm-yyyy'), to_date('15-01-2019', 'dd-mm-yyyy'), null, '922607270', '937829536', 71);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-09-2006', 'dd-mm-yyyy'), to_date('06-08-2017', 'dd-mm-yyyy'), null, '677905366', '130969218', 183);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('23-03-2021', 'dd-mm-yyyy'), to_date('06-04-2021', 'dd-mm-yyyy'), null, '688973370', '559859523', 386);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-12-2016', 'dd-mm-yyyy'), to_date('02-01-2017', 'dd-mm-yyyy'), null, '574465011', '072820783', 414);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-03-2023', 'dd-mm-yyyy'), to_date('23-03-2023', 'dd-mm-yyyy'), null, '066516192', '251808841', 528);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-01-2009', 'dd-mm-yyyy'), to_date('25-04-2014', 'dd-mm-yyyy'), null, '033035228', '745672175', 185);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-12-2023', 'dd-mm-yyyy'), to_date('21-12-2023', 'dd-mm-yyyy'), null, '782812737', '146137062', 138);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-01-2020', 'dd-mm-yyyy'), to_date('27-01-2020', 'dd-mm-yyyy'), null, '511449615', '720106083', 406);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-08-2020', 'dd-mm-yyyy'), to_date('11-12-2023', 'dd-mm-yyyy'), null, '523453408', '706196502', 995);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-12-2023', 'dd-mm-yyyy'), to_date('05-01-2024', 'dd-mm-yyyy'), null, '494302245', '691006719', 154);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('05-07-2023', 'dd-mm-yyyy'), to_date('19-07-2023', 'dd-mm-yyyy'), null, '396904603', '066163526', 647);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('12-09-2021', 'dd-mm-yyyy'), to_date('26-09-2021', 'dd-mm-yyyy'), null, '800071003', '252004653', 674);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-07-2000', 'dd-mm-yyyy'), to_date('03-07-2010', 'dd-mm-yyyy'), null, '322854435', '438188432', 850);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('20-08-2020', 'dd-mm-yyyy'), to_date('03-09-2020', 'dd-mm-yyyy'), null, '054248733', '983815148', 764);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-01-2023', 'dd-mm-yyyy'), to_date('31-01-2023', 'dd-mm-yyyy'), null, '159620386', '240939313', 685);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-08-2019', 'dd-mm-yyyy'), to_date('01-09-2019', 'dd-mm-yyyy'), null, '238684624', '706196502', 81);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('06-03-2016', 'dd-mm-yyyy'), to_date('20-03-2016', 'dd-mm-yyyy'), null, '063528944', '899786232', 1000);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('01-03-2004', 'dd-mm-yyyy'), to_date('08-12-2022', 'dd-mm-yyyy'), null, '499600585', '983815148', 555);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-02-2016', 'dd-mm-yyyy'), to_date('14-03-2016', 'dd-mm-yyyy'), null, '766598824', '191792029', 483);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-11-2007', 'dd-mm-yyyy'), to_date('01-09-2013', 'dd-mm-yyyy'), null, '188284365', '677097969', 718);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('26-06-2007', 'dd-mm-yyyy'), to_date('21-05-2016', 'dd-mm-yyyy'), null, '855053927', '245272383', 743);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('13-05-2005', 'dd-mm-yyyy'), to_date('14-01-2018', 'dd-mm-yyyy'), null, '487301584', '376926882', 75);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('28-06-2014', 'dd-mm-yyyy'), to_date('12-07-2014', 'dd-mm-yyyy'), null, '560046205', '141376208', 519);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-11-2015', 'dd-mm-yyyy'), to_date('28-09-2023', 'dd-mm-yyyy'), null, '498584448', '417953406', 616);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-05-2001', 'dd-mm-yyyy'), to_date('13-07-2011', 'dd-mm-yyyy'), null, '374339845', '021781827', 326);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('19-02-2020', 'dd-mm-yyyy'), to_date('04-03-2020', 'dd-mm-yyyy'), null, '127097395', '953469588', 251);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('07-08-2007', 'dd-mm-yyyy'), to_date('25-06-2015', 'dd-mm-yyyy'), to_date('07-07-2024 12:45:55', 'dd-mm-yyyy hh24:mi:ss'), '013427448', '909087863', 922);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-04-2022', 'dd-mm-yyyy'), to_date('25-04-2022', 'dd-mm-yyyy'), null, '214713146', '915372180', 615);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-08-2015', 'dd-mm-yyyy'), to_date('01-05-2024', 'dd-mm-yyyy'), null, '367985568', '638414377', 350);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('03-09-2009', 'dd-mm-yyyy'), to_date('20-03-2020', 'dd-mm-yyyy'), null, '751666263', '851278188', 822);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('14-07-2017', 'dd-mm-yyyy'), to_date('16-11-2020', 'dd-mm-yyyy'), null, '086072867', '915372180', 143);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('29-10-2014', 'dd-mm-yyyy'), to_date('21-12-2018', 'dd-mm-yyyy'), null, '022601726', '631487255', 449);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-05-2019', 'dd-mm-yyyy'), to_date('31-05-2019', 'dd-mm-yyyy'), null, '856216050', '280673575', 859);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('27-08-2007', 'dd-mm-yyyy'), to_date('12-04-2022', 'dd-mm-yyyy'), null, '454626264', '917553275', 102);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('21-10-2014', 'dd-mm-yyyy'), to_date('26-09-2022', 'dd-mm-yyyy'), null, '082415344', '379348654', 926);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('22-09-2014', 'dd-mm-yyyy'), to_date('07-08-2024', 'dd-mm-yyyy'), null, '898194084', '279175065', 407);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('15-12-2018', 'dd-mm-yyyy'), to_date('29-12-2018', 'dd-mm-yyyy'), null, '061215635', '628942053', 802);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('11-08-2022', 'dd-mm-yyyy'), to_date('25-08-2022', 'dd-mm-yyyy'), null, '725276037', '311246059', 354);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('17-01-2022', 'dd-mm-yyyy'), to_date('31-01-2022', 'dd-mm-yyyy'), null, '871507308', '490830032', 508);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('10-06-2008', 'dd-mm-yyyy'), to_date('20-02-2016', 'dd-mm-yyyy'), null, '311690756', '703815502', 784);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('25-08-2000', 'dd-mm-yyyy'), to_date('21-11-2010', 'dd-mm-yyyy'), null, '914006622', '319029281', 811);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-07-2005', 'dd-mm-yyyy'), to_date('31-10-2013', 'dd-mm-yyyy'), null, '334283784', '469016250', 865);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('16-08-2016', 'dd-mm-yyyy'), to_date('25-03-2018', 'dd-mm-yyyy'), null, '305084973', '086072867', 669);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('09-03-2006', 'dd-mm-yyyy'), to_date('02-03-2015', 'dd-mm-yyyy'), null, '507745420', '736410796', 163);
+insert into BOOKLENDING (lendingdate, duedate, returndate, clientid, librarianid, copyid)
+values (to_date('18-04-2016', 'dd-mm-yyyy'), to_date('27-05-2022', 'dd-mm-yyyy'), null, '453202055', '251808841', 488);
 commit;
 prompt 382 records loaded
 prompt Loading BOOK_AUTHOR...
